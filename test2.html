@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>BotADM</title>
+
+
+<script src="https://code.jquery.com/jquery-1.4.2.min.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+    $('.form').submit( function() {
+
+        $.ajax({
+            url     : $(this).attr('action'),
+            type    : $(this).attr('method'),
+            data    : $(this).serialize(),
+            
+        });
+
+        return false;
+    });
+
+});
+
+
+	
+	
+
+	
+</script>
+</head>
+	<body>
+			<div id="box">
+			<div>V0.1</div>
+                <form action="http://localhost:8112/simplitReborn" method="post" class="form">
+                <fieldset>
+                <legend>BotADM</legend>
+                <label>Tiempo</label>
+			    <input type="text" id="time" name="time" placeholder="en horas" style="width: 60px;">
+				<div class="info" style="margin-top: 10px;"><strong> **** Se debe ingresar el tiempo para iniciar el timer, con "0" se detiene el timer y con "-1" se apaga el robot ***</strong></div>
+                <div class='msg' style='display:none; '></div>
+                
+                </fieldset>
+                </form>
+				
+            </div>	
+
+
+</body>
+
+
+</html>
