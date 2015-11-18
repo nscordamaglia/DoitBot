@@ -118,11 +118,11 @@ public class SimplitReborn {
                                }
                         
                         /** Luego recorro el array de tktobj y consulto los estados para ejecutar las acciones **/
-                        for (int i = 0; i<itracker.getArrayTKT().size();i++){
-                            SendAction sendaction = new SendAction(itracker, i);
-                            sendaction.Ejecute();
-                            sendaction.GetResponse();
-                        }  
+//                        for (int i = 0; i<itracker.getArrayTKT().size();i++){
+//                            SendAction sendaction = new SendAction(itracker, i);
+//                            sendaction.Ejecute();
+//                            sendaction.GetResponse();
+//                        }  
             
             }
        }

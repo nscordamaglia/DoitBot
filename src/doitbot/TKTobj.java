@@ -118,7 +118,13 @@ class TKTobj {
     
     public TKTobj(ArrayList<String> a) {
         
-        this.IncidentID = a.get(0)+a.get(1);
+        
+        String number = a.get(1).replaceAll("\\W","");
+        int aux = 8 - (number.length());
+        for (int i=0; i<aux; i++){
+            number="0"+number;
+        }
+        this.IncidentID = a.get(0)+number;System.out.println(getIncidentID());
         this.id = a.get(2);
         this.FA = a.get(3);
         this.master = a.get(4);
@@ -136,6 +142,7 @@ class TKTobj {
             parser.ReadTag();
             StoringOrder(parser.getResponse(),i);
             parser.setResponse(response);
+            
         }
         
         /*
