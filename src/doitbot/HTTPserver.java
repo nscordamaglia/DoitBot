@@ -1,29 +1,21 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package doitbot;
 
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
-import java.awt.Desktop;
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.InetSocketAddress;
-import java.text.DateFormat;
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+
 
 /**
- *
- * @author u189299
+ * Clase que se encarga de iniciar el server local para poder recibir informacion via http
+ * @author Nicolas Scordamaglia
  */
 class HTTPserver {
     
@@ -53,7 +45,10 @@ class HTTPserver {
         catch (Exception e) {}*/
     }
 
-    //metodo para pasar el server como referencia
+    /**
+     * Metodo para pasar el server como referencia
+     * @return 
+     */
     public HttpServer get_server(){return server;}
     
     private class MyHandler implements HttpHandler {
@@ -67,7 +62,11 @@ class HTTPserver {
                 timer.tasker(s,Float.valueOf(time),new Date()); 
             
         }
-        
+        /**
+         * Metodo para interpretar la recepcion del parametro que viene via http
+         * @param t
+         * @throws IOException 
+         */
         public void handle(HttpExchange t) throws IOException {
           
                 String response = "ok";

@@ -1,12 +1,9 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package doitbot;
 
 /**
- *
- * @author u189299
+ * Clase que se extiende de Action y usa como parametro al servicio que instancia y realizar una determinada accion.
+ * @author Nicolas Scordamaglia
  */
 class GetList extends Action{
     
@@ -15,6 +12,10 @@ class GetList extends Action{
     private Service service;
     private DataNodes datanodes;
 
+    /**
+     * Constructor
+     * @param s 
+     */
     public GetList(Service s) {
         super(s);
         this.method = "LISTING";
@@ -46,15 +47,22 @@ class GetList extends Action{
     public void setDatanodes(DataNodes datanodes) {
         this.datanodes = datanodes;
     }
-    
+    /**
+    * Metodo que interpreta la respuesta del sitio remoto
+    */
     @Override
     void Ejecute(){
         
         System.out.println("getlist...");
+        Save logServer = new Save();
+            logServer.file("Connection Itracker...", "logs/logserver.log");
         service.run(datanodes);
         
         
     }
+    /**
+    * Metodo que interpreta la respuesta del sitio remoto
+    */
     @Override
     void GetResponse(){
     

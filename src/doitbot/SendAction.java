@@ -1,12 +1,9 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package doitbot;
 
 /**
- *
- * @author u189299
+ * Clase que se extiende de Action y usa como parametro al servicio que instancia y realizar una determinada accion.
+ * @author Nicolas Scordamaglia
  */
 class SendAction extends Action{
     
@@ -48,6 +45,11 @@ class SendAction extends Action{
         this.datanodes = datanodes;
     }
 
+    /**
+     * Constructor
+     * @param s
+     * @param i 
+     */
     public SendAction(Service s,int i) {
         super(s);
         this.method = "ACTION";
@@ -58,14 +60,20 @@ class SendAction extends Action{
     }
 
     
-
+    /**
+    * Metodo que interpreta la respuesta del sitio remoto
+    */
     @Override
     void Ejecute() {
             //ejecuto las acciones x cada tktobj
             System.out.println("send actions...");
+            Save logServer = new Save();
+            logServer.file("Sending Actions...", "logs/logserver.log");
             service.run(datanodes);
     }
-    
+    /**
+    * Metodo que interpreta la respuesta del sitio remoto
+    */
     @Override
     void GetResponse() {
         
@@ -75,6 +83,9 @@ class SendAction extends Action{
         if("error".equals(parser.getResponse().substring(0, 5))){
         
                 setStatus(parser.getResponse());
+                Save logServer = new Save();
+                System.out.println("No se puede ejecutar accion en el tkt " + getTkt().getId()+" - "+ parser.getResponse());
+                logServer.file("No se puede ejecutar accion en el tkt " + getTkt().getId()+" - "+ parser.getResponse(), "logs/logserver.log");
             
         }else{
             
@@ -110,13 +121,15 @@ class SendAction extends Action{
                 
                 
                 saveLog.file(tktid, path);
-                System.out.println(path);
+                
                     if ("logs/commented.log".equals(path)){
 
+                        System.out.println("Se procede a comentar el tkt " + tktid);
                         logServer.file("Se procede a comentar el tkt " + tktid, "logs/logserver.log");
                         
                     }else if("logs/closed.log".equals(path)){
                        
+                        System.out.println("Se procede a cerrar el tkt " + tktid);
                         logServer.file("Se procede a cerrar el tkt " + tktid, "logs/logserver.log");
                     
                     

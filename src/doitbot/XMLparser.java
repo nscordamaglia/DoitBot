@@ -55,7 +55,9 @@ class XMLparser {
     }
     
     
-    
+    /**
+     * Metodo para leer por tag en el response
+     */
     void ReadTag(){
       
              
@@ -71,6 +73,12 @@ class XMLparser {
     
     }
     
+    /**
+     * Metodo que devuelve el nodo segun response y tag
+     * @param response
+     * @param data
+     * @return 
+     */
     Node SearchTag(String response, String data){
         
         Node node1 = null;
@@ -106,6 +114,10 @@ class XMLparser {
         
     
     }
+    /**
+     * Metodo para generar el array de itracker que sirve como nuvleo para la inicializacion del tkt obj
+     * @return 
+     */
 
     ArrayList<TKTobj> itrackerList() {
         
@@ -181,7 +193,9 @@ class XMLparser {
     }
      
      
-
+     /**
+      * Metodo para leer el tag result
+      */
     void ReadResult() {
         try{
             Node r = SearchTag(response, data);
@@ -191,6 +205,9 @@ class XMLparser {
                                         setResponse("error: falló la consulta");}
     }
     
+    /**
+     * Metodo para leer la respuesta de doit
+     */
     void ReadResultSoap() {
         try{
             Node r = SearchTag(response, data);

@@ -126,10 +126,10 @@ class Request {
                     int responseCode = con.getResponseCode();
                    //System.out.println("\nSending 'POST' request to URL : " + url);
                     //System.out.println("Post parameters : " + params);
-                    System.out.println("Response Code : " + responseCode);
+                    //System.out.println("Response Code : " + responseCode);
                     logStart.file("Response Code : " + responseCode, "logs/logserver.log");
                     if (responseCode != 404 && responseCode != 500){
-                    System.out.println("Comunication success...  ");
+                    //System.out.println("Comunication success...  ");
                     logStart.file("Comunication success...  ", "logs/logserver.log");
                         
                     BufferedReader in = new BufferedReader(
@@ -257,10 +257,10 @@ class Request {
                     int responseCode = con.getResponseCode();
                    //System.out.println("\nSending 'POST' request to URL : " + url);
                     //System.out.println("Post parameters : " + params);
-                    System.out.println("Response Code : " + responseCode);
+                   // System.out.println("Response Code : " + responseCode);
                     logStart.file("Response Code : " + responseCode, "logs/logserver.log");
                     if (responseCode != 404 && responseCode != 500){
-                    System.out.println("Comunication success...  ");
+                   // System.out.println("Comunication success...  ");
                     logStart.file("Comunication success...  ", "logs/logserver.log");
                         
                     BufferedReader in = new BufferedReader(
@@ -274,7 +274,7 @@ class Request {
                     in.close();
 
                     //imprime resultado
-                   //System.out.println(response.toString());
+                   System.out.println(response.toString());
                   
                     getResponse = response.toString();
                     }else{
@@ -288,7 +288,7 @@ class Request {
                         System.out.println("UnknownHost error");
                         logStart.file("Comunication fail...UnknownHost error  ", "logs/logserver.log");
                         Thread.sleep(20000);//espera 20 segundos para volver a ejecutar la comunicacion en caso de fallar
-                        this.SendPost();
+                        this.SendGet();
                     } catch (InterruptedException ex) {
                         Logger.getLogger(Request.class.getName()).log(Level.SEVERE, null, ex);
                     }
@@ -298,7 +298,7 @@ class Request {
                         System.out.println("Remote error");
                         logStart.file("Comunication fail...Remote error  ", "logs/logserver.log");
                         Thread.sleep(20000);//espera 20 segundos para volver a ejecutar la comunicacion en caso de fallar
-                        this.SendPost();
+                        this.SendGet();
                     } catch (InterruptedException ex) {
                         Logger.getLogger(Request.class.getName()).log(Level.SEVERE, null, ex);
                     }
@@ -308,7 +308,7 @@ class Request {
                         System.out.println("MalformedURL error");
                         logStart.file("Comunication fail...MalformedURL error  ", "logs/logserver.log");
                         Thread.sleep(20000);//espera 20 segundos para volver a ejecutar la comunicacion en caso de fallar
-                        this.SendPost();
+                        this.SendGet();
                     } catch (InterruptedException ex) {
                         Logger.getLogger(Request.class.getName()).log(Level.SEVERE, null, ex);
                     }
@@ -318,7 +318,7 @@ class Request {
                         System.out.println("Connect error");
                         logStart.file("Comunication fail...Connect error ", "logs/logserver.log");
                         Thread.sleep(20000);//espera 20 segundos para volver a ejecutar la comunicacion en caso de fallar
-                        this.SendPost();
+                        this.SendGet();
                     } catch (InterruptedException ex) {
                         Logger.getLogger(Request.class.getName()).log(Level.SEVERE, null, ex);
                     }
@@ -328,7 +328,7 @@ class Request {
                         System.out.println("socket error");
                         logStart.file("Comunication fail...socket error ", "logs/logserver.log");
                         Thread.sleep(20000);//espera 20 segundos para volver a ejecutar la comunicacion en caso de fallar
-                        this.SendPost();
+                        this.SendGet();
                     } catch (InterruptedException ex) {
                         Logger.getLogger(Request.class.getName()).log(Level.SEVERE, null, ex);
                     }

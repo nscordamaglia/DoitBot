@@ -67,7 +67,9 @@ class MakeHeader {
         this.urlParameters = urlParameters;
     }
     
-    //maqueta XML
+    /**
+     * Metodo que genera la estructura xml
+     */
     void run(){
         
         String[] dataheader;
@@ -76,7 +78,7 @@ class MakeHeader {
         
          
             //edito los nodos cabecera
-            dataheader = d.editHeader.split(";"); System.out.println("creo el header");
+            dataheader = d.editHeader.split(";"); //System.out.println("creo el header");
             document.getElementsByTagName("hash").item(0).setTextContent(hash.getValue());//System.out.println(hash.getValue());
             document.getElementsByTagName("class").item(0).setTextContent(dataheader[1]);
             document.getElementsByTagName("method").item(0).setTextContent(dataheader[2]);
@@ -110,6 +112,9 @@ class MakeHeader {
         
     }
     
+    /**
+     * Metodo que toma el archivo xml para su edicion
+     */
    private void toXML (){
        //creo el xml
        Document document = null;
@@ -129,6 +134,10 @@ class MakeHeader {
         }
         
     }
+   /**
+    * Metodo que toma el documento editado para pasarlo a string y ser enviado como parametro
+    * @param document 
+    */
    private void toTXT (Document document){
         try {
             //paso a string para imprimirlo

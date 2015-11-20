@@ -33,8 +33,9 @@ public class SimplitReborn {
         
         Date now = new Date();
         String date = DateFormat.getInstance().format(now);
-        System.out.println("Start ok " + date);
         Save logServer = new Save();
+        System.out.println("Start ok " + date);
+        logServer.file("Start ok " + date, "logs/logserver.log");
         
        Itracker itracker = new Itracker();
        /** Login **/
@@ -83,6 +84,7 @@ public class SimplitReborn {
                         GetDoitList doitlist = new GetDoitList(doit);
                         doitlist.Ejecute();
                         doitlist.GetResponse();
+                        if(!"Error de autenticacion contra Doit".equals(doitlist.getStatus())){
                         /** Ejecuto las acciones en itracker x cada tktobj **/
                         itracker.setArrayTKT(doit.getArrayTKT());  
                         //imprimo la cantidad de tkt luego de quitar los cerrados
@@ -118,12 +120,17 @@ public class SimplitReborn {
                                }
                         
                         /** Luego recorro el array de tktobj y consulto los estados para ejecutar las acciones **/
-//                        for (int i = 0; i<itracker.getArrayTKT().size();i++){
-//                            SendAction sendaction = new SendAction(itracker, i);
-//                            sendaction.Ejecute();
-//                            sendaction.GetResponse();
-//                        }  
-            
+                        for (int i = 0; i<itracker.getArrayTKT().size();i++){
+                            SendAction sendaction = new SendAction(itracker, i);
+                            sendaction.Ejecute();
+                            sendaction.GetResponse();
+                        }  
+                   }else{
+                        
+                        System.out.println(doitlist.getStatus());
+                        logServer.file(getlist.getStatus(), "logs/logserver.log");
+                        
+                        }   
             }
        }
              

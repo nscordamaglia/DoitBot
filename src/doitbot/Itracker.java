@@ -56,11 +56,11 @@ class Itracker extends Service{
     void run(DataNodes d){
         try {
             
-            System.out.println("make header...");
+            //System.out.println("make header...");
             //deberia saber que clase lo invoca para poder pedirle los datos
             MakeHeader header = new MakeHeader(d,hash);
             header.run();
-            System.out.println("inicio request...");
+            //System.out.println("inicio request...");
             Request rq = new Request(url,header.getUrlParameters());
             rq.SendPost();
             //System.out.println("response: " + rq.getGetResponse());

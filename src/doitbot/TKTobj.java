@@ -1,14 +1,16 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package doitbot;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
- *
- * @author u189299
+ * Clase creadora de objetos tkt, se inicializan con los datos de itracker y luego se actualizan con los datos de doit
+ * @author Nicolas Scordamaglia
  */
 class TKTobj {
     
@@ -137,7 +139,7 @@ class TKTobj {
         
         for (int i = 0; i<arrayinfo.length; i++){
             
-           //System.out.println("tag: " + arrayinfo[i]);
+            //System.out.println("tag: " + arrayinfo[i]);
             parser.setData("instance/" + arrayinfo[i]);
             parser.ReadTag();
             StoringOrder(parser.getResponse(),i);
@@ -171,15 +173,61 @@ class TKTobj {
     }
     
     void StoringOrder(String d,int p){
-    
+  
     //IncidentID;OpenTime;ClosedTime;PrimaryAssignmentGroup;Description;Solution;JournalUpdates;Status
-        if(p == 0){setIncidentID(d);}else if(p == 1){setOpenTime(d);}else if(p == 2){setClosedTime(d);}else if(p == 3){setPrimaryAssignmentGroup(d);}
-        else if(p == 4){setDescription(d);}else if(p == 5){setSolution(d);}else if(p == 6){setJournalUpdates(d);}else if(p == 7){setStatus(d);}
+        if(p == 0){setIncidentID(d);}else if(p == 1){ 
+            try {
+                SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+                Date date = formatter.parse(caracterControl(d).split("T")[0]);
+                String opentime = new SimpleDateFormat("dd-MM-yyyy").format(date).toString();System.out.println(opentime);
+                setOpenTime(opentime);
+            } catch (ParseException ex) {
+                Logger.getLogger(TKTobj.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }else if(p == 2){
+            System.out.println("fecha: "+d);
+            if (!"sin datos".equals(d)){
+                        try {
+                            SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+                            Date date = formatter.parse(caracterControl(d).split("T")[0]);
+                            String closetime = new SimpleDateFormat("dd-MM-yyyy").format(date).toString();System.out.println(closetime);
+                            setClosedTime(closetime);
+                        } catch (ParseException ex) {
+                            Logger.getLogger(TKTobj.class.getName()).log(Level.SEVERE, null, ex);
+                        }
+            }
+        }else if(p == 3){setPrimaryAssignmentGroup(d);}
+        else if(p == 4){setDescription(this.caracterControl(d)); System.out.println(getDescription());}else if(p == 5){setSolution(this.caracterControl(d));}else if(p == 6){setJournalUpdates(this.caracterControl(d));}else if(p == 7){setStatus(d);}
         
-    
-    
-    
-    
+    }
+    private String caracterControl(String data){
+        
+        String replace = null;
+        String[] caracter = {";","/","\\\\/","'","&","<",">","\""};
+        for (int i=0;i<8;i++){
+            if (";".equals(caracter[i])){
+                
+                 replace = ".";
+                
+            }            
+            else if ("/".equals(caracter[i])){
+            
+                replace = "-";
+            
+            
+            }else{
+            
+            replace = " ";
+            
+            }
+            data = data.replace(caracter[i], replace);
+            //System.out.println(data);
+        }
+        
+        data = data.replaceAll("\\t", " ");
+        data = data.replaceAll("\\n", ". ");
+        data = data.replaceAll("\\r", ". ");
+        return data;
     }
     
 }

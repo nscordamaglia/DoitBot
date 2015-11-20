@@ -1,7 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package doitbot;
 
 import java.io.BufferedReader;
@@ -11,31 +8,51 @@ import java.io.FileReader;
 import java.io.IOException;
 
 /**
- *
- * @author u189299
+ * Clase ue se encarga de verificar la existencia de los tkt en los diferentes archivos
+ * @author Nicolas Scordamaglia
  */
 class Verify {
     
     
-
+    /**
+     * Metodo para buscar en el archivo pasado por parametro
+     * @param incidentid
+     * @return 
+     */
     static boolean Closed(String incidentid) {
         
         
         return Search(incidentid, "logs/closed.log");
         
     }
+    /**
+     * Metodo para buscar en el archivo pasado por parametro
+     * @param incidentid
+     * @return 
+     */
     static boolean Commented(String incidentid) {
         
         
          return Search(incidentid, "logs/commented.log");
         
     }
+    /**
+     * Metodo para buscar en el archivo pasado por parametro
+     * @param itid
+     * @return 
+     */
     static boolean Slave(String itid) {
         
         
          return Search(itid, "logs/master.log");
         
     }
+    /**
+     * Metodo generico para buscar en el archivo pasado por parametro
+     * @param tkt
+     * @param path
+     * @return 
+     */
     static boolean Search(String tkt, String path) {
         
         Save logStart = new Save();

@@ -16,11 +16,15 @@ class DataNodes {
     String txtform;
     String action;
     
-
+    /**
+     * Constructor para la ejecucion de acciones en itracker
+     * @param method
+     * @param tkt 
+     */
     DataNodes(String method, TKTobj tkt) {
         
         this.method = method;
-        System.out.println("estado: " + tkt.getStatus());
+        //System.out.println("estado: " + tkt.getStatus());
         if ("Closed".equals(tkt.getStatus())){
             //evaluo si es posible ejecutar la accion de cerrar, caso contrario solo comento
             if(Verify.Slave(tkt.getId()) == false){action="CERRAR_EXT";}else{action="STATUS_TKT_EXT";}
@@ -34,7 +38,7 @@ class DataNodes {
             this.txtform = "[{\"id\":\"actionform_tipo\",\"value\":\"" + tkt.getIncidentID().substring(0, 2) + "\"},{\"id\":\"actionform_numero\",\"value\":\"" 
                             + tkt.getIncidentID().substring(2, tkt.getIncidentID().length()) + "\"},{\"id\":\"actionform_grupo\",\"value\":\"" + tkt.getPrimaryAssignmentGroup() + "\"},{\"id\":\"actionform_status\",\"value\":\"" 
                             + tkt.getStatus() + "\"},{\"id\":\"actionform_fecha\",\"value\":\"" + tkt.getOpenTime() + "\"},{\"id\":\"actionform_comment\",\"value\":\"" 
-                            + tkt.getJournalUpdates()+ "\"}]";//crear formulario apropiado al evento
+                            + tkt.getDescription()+ "\"}]";//crear formulario apropiado al evento
         }
         this.editHeader = ConfigManager.getAppSetting("editHeader"+method);
         this.createNodes = ConfigManager.getAppSetting("createNodes"+method);
@@ -76,7 +80,10 @@ class DataNodes {
     
     
             
-
+    /**
+     * Constructor basico
+     * @param method 
+     */
     DataNodes(String method) {
         
         this.method = method;

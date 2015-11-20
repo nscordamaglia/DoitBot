@@ -19,6 +19,10 @@ class Login extends Action{
 
         
 
+    /**
+     * Constructor
+     * @param s 
+     */
     public Login(Service s) {
         super(s);
         this.user = ConfigManager.getAppSetting("user");
@@ -84,15 +88,23 @@ class Login extends Action{
         this.pass = pass;
     }
     
-    
+    /**
+    * Metodo que interpreta la respuesta del sitio remoto
+    */
+    @Override
     void Ejecute(){
         
         System.out.println("login...");
+        Save logServer = new Save();
+            logServer.file("Login...", "logs/logserver.log");
         service.run(datanodes);
         
         
     }
-    
+    /**
+    * Metodo que interpreta la respuesta del sitio remoto
+    */
+    @Override
     void GetResponse(){
     
        

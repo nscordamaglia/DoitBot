@@ -1,7 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package doitbot;
 
 import java.io.File;
@@ -12,8 +9,8 @@ import java.text.DateFormat;
 import java.util.Date;
 
 /**
- *
- * @author u189299
+ * Clase para poder grabar en archivo
+ * @author Nicolas Scordamaglia
  */
 class Save {
     

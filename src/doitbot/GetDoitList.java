@@ -1,14 +1,11 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package doitbot;
 
 import java.util.Iterator;
 
 /**
- *
- * @author u189299
+ * Clase que se extiende de Action y usa como parametro al servicio que instancia y realizar una determinada accion.
+ * @author Nicolas Scordamaglia
  */
 class GetDoitList extends Action{
     
@@ -41,6 +38,10 @@ class GetDoitList extends Action{
         this.datanodes = datanodes;
     }
 
+    /**
+     * Constructor
+     * @param s 
+     */
     public GetDoitList(Service s) {
         super(s);
         this.method = "DOIT";
@@ -49,14 +50,22 @@ class GetDoitList extends Action{
         this.datanodes = new DataNodes(method);
     }
 
+    /**
+     * Metodo que usa el servicio instanciado como interfaz contra el sitio remoto del sistema
+     */
    @Override
     void Ejecute(){
         
         System.out.println("getdoit list...");
+        Save logServer = new Save();
+            logServer.file("Connection Doit...", "logs/logserver.log");
         service.run(datanodes);
         
         
     }
+   /**
+    * Metodo que interpreta la respuesta del sitio remoto
+    */
     @Override
     void GetResponse(){
                  
@@ -65,18 +74,29 @@ class GetDoitList extends Action{
                for(Iterator<String> iter = service.getArrayResponse().iterator(); iter.hasNext();){
                                      String rqResponse = iter.next();
                                      TKTobj tkt = itertkt.next();
-                                     parser.setResponse(rqResponse);
-                                     parser.setData("RetrieveIncidentResponse");
-                                     parser.ReadResultSoap();
-                 if("9".equals(parser.getResponse())){
-                     System.out.println("Error o no existe reclamo");
-                                iter.remove();
-                                itertkt.remove();
+                                     
+                  if(!"HTML".equals(rqResponse.substring(1, 5))){
+                                                    parser.setResponse(rqResponse);
+                                                    parser.setData("RetrieveIncidentResponse");
+                                                    parser.ReadResultSoap();
+                                if("9".equals(parser.getResponse())){
+                                    System.out.println("El incidente " + tkt.getIncidentID() + " no existe en Doit");
+                                    Save logServer = new Save();
+                                    logServer.file("El incidente " + tkt.getIncidentID() + " no existe en Doit", "logs/logserver.log");
+                                               iter.remove();
+                                               itertkt.remove();
 
-                }
-                else{
-                   tkt.Update(rqResponse);
-                }
+                               }
+                               else{
+                                  tkt.Update(rqResponse);
+                               }
+                  }else{
+                  
+                      System.out.println("Error de autenticacion contra Doit");
+                      setStatus("Error de autenticacion contra Doit");
+                                               break;
+                      
+                  }
            }    
 
                       

@@ -1,7 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package doitbot;
 
 
@@ -10,8 +7,8 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 /**
- *
- * @author u189299
+ * Calse que se encarga de inicializar la programacion de las acciones
+ * @author Nicolas Scordamaglia
  */
 class SimplitTimer {
     
@@ -33,7 +30,8 @@ class SimplitTimer {
         /**
          * Metodo que toma el server y el parametro ingresado por el usuario y lo utiliza para decidir la accion a realizar
          * @param server
-         * @param aux 
+         * @param aux
+         * @param since 
          */
         public  void tasker (HTTPserver server, float aux, Date since){
         
