@@ -2638,3 +2638,520 @@ Waiting... - 20/11/15 16:35
 Timer created! - 20/11/15 16:36
 schedule 12.0hs - 20/11/15 16:36
 TASKER INIT! - 20/11/15 16:36
+Timer created! - 23/11/15 11:16
+schedule 12.0hs - 23/11/15 11:16
+Start ok 23/11/15 11:16 - 23/11/15 11:16
+TASKER INIT! - 23/11/15 11:16
+init_server - 23/11/15 11:16
+Login... - 23/11/15 11:16
+Response Code : 200 - 23/11/15 11:16
+Comunication success...   - 23/11/15 11:16
+Connection Itracker... - 23/11/15 11:16
+Response Code : 200 - 23/11/15 11:17
+Comunication success...   - 23/11/15 11:17
+Existen 8 tickets... - 23/11/15 11:17
+verifico el tkt IM00483031 en el archivo logs/closed.log - 23/11/15 11:17
+verifico el tkt IM00900231 en el archivo logs/closed.log - 23/11/15 11:17
+verifico el tkt SD02000357 en el archivo logs/closed.log - 23/11/15 11:17
+verifico el tkt IM00900152 en el archivo logs/closed.log - 23/11/15 11:17
+verifico el tkt IM00900583 en el archivo logs/closed.log - 23/11/15 11:17
+verifico el tkt IM00900379 en el archivo logs/closed.log - 23/11/15 11:17
+verifico el tkt IM00900194 en el archivo logs/closed.log - 23/11/15 11:17
+verifico el tkt IM02001415 en el archivo logs/closed.log - 23/11/15 11:17
+Connection Doit... - 23/11/15 11:17
+Response Code : 200 - 23/11/15 11:17
+Comunication success...   - 23/11/15 11:17
+Comunication fail...socket error  - 23/11/15 11:17
+Response Code : 200 - 23/11/15 11:17
+Comunication success...   - 23/11/15 11:17
+Response Code : 200 - 23/11/15 11:17
+Comunication success...   - 23/11/15 11:17
+Response Code : 200 - 23/11/15 11:17
+Comunication success...   - 23/11/15 11:17
+Response Code : 200 - 23/11/15 11:17
+Comunication success...   - 23/11/15 11:17
+Response Code : 200 - 23/11/15 11:17
+Comunication success...   - 23/11/15 11:17
+Response Code : 200 - 23/11/15 11:17
+Comunication success...   - 23/11/15 11:17
+Response Code : 200 - 23/11/15 11:17
+Comunication success...   - 23/11/15 11:17
+Error de autenticacion contra Doit - 23/11/15 11:17
+Waiting... - 23/11/15 11:17
+Timer created! - 23/11/15 11:42
+init_server - 23/11/15 11:42
+Timer created! - 23/11/15 11:43
+schedule 12.0hs - 23/11/15 11:43
+TASKER INIT! - 23/11/15 11:43
+init_server - 23/11/15 11:43
+Start ok 23/11/15 11:43 - 23/11/15 11:43
+Login... - 23/11/15 11:43
+Response Code : 200 - 23/11/15 11:44
+Comunication success...   - 23/11/15 11:44
+Connection Itracker... - 23/11/15 11:44
+Response Code : 200 - 23/11/15 11:44
+Comunication success...   - 23/11/15 11:44
+Existen 8 tickets... - 23/11/15 11:44
+verifico el tkt IM00483031 en el archivo logs/closed.log - 23/11/15 11:44
+verifico el tkt IM00900231 en el archivo logs/closed.log - 23/11/15 11:44
+verifico el tkt SD02000357 en el archivo logs/closed.log - 23/11/15 11:44
+verifico el tkt IM00900152 en el archivo logs/closed.log - 23/11/15 11:44
+verifico el tkt IM00900583 en el archivo logs/closed.log - 23/11/15 11:44
+verifico el tkt IM00900379 en el archivo logs/closed.log - 23/11/15 11:44
+verifico el tkt IM00900194 en el archivo logs/closed.log - 23/11/15 11:44
+verifico el tkt IM02001415 en el archivo logs/closed.log - 23/11/15 11:44
+Connection Doit... - 23/11/15 11:44
+Response Code : 200 - 23/11/15 11:44
+Comunication success...   - 23/11/15 11:44
+Response Code : 200 - 23/11/15 11:44
+Comunication success...   - 23/11/15 11:44
+Response Code : 200 - 23/11/15 11:44
+Comunication success...   - 23/11/15 11:44
+Response Code : 200 - 23/11/15 11:44
+Comunication success...   - 23/11/15 11:44
+Response Code : 200 - 23/11/15 11:44
+Comunication success...   - 23/11/15 11:44
+Response Code : 200 - 23/11/15 11:44
+Comunication success...   - 23/11/15 11:44
+Response Code : 200 - 23/11/15 11:44
+Comunication success...   - 23/11/15 11:44
+Response Code : 200 - 23/11/15 11:44
+Comunication success...   - 23/11/15 11:44
+Error de autenticacion contra Doit - 23/11/15 11:44
+Waiting... - 23/11/15 11:44
+Timer created! - 23/11/15 11:54
+schedule 12.0hs - 23/11/15 11:54
+TASKER INIT! - 23/11/15 11:54
+init_server - 23/11/15 11:54
+Start ok 23/11/15 11:54 - 23/11/15 11:54
+Login... - 23/11/15 11:54
+Response Code : 200 - 23/11/15 11:54
+Comunication success...   - 23/11/15 11:54
+Connection Itracker... - 23/11/15 11:54
+Response Code : 200 - 23/11/15 11:54
+Comunication success...   - 23/11/15 11:54
+Existen 8 tickets... - 23/11/15 11:54
+verifico el tkt IM00483031 en el archivo logs/closed.log - 23/11/15 11:54
+verifico el tkt IM00900231 en el archivo logs/closed.log - 23/11/15 11:54
+verifico el tkt SD02000357 en el archivo logs/closed.log - 23/11/15 11:54
+verifico el tkt IM00900152 en el archivo logs/closed.log - 23/11/15 11:54
+verifico el tkt IM00900583 en el archivo logs/closed.log - 23/11/15 11:54
+verifico el tkt IM00900379 en el archivo logs/closed.log - 23/11/15 11:54
+verifico el tkt IM00900194 en el archivo logs/closed.log - 23/11/15 11:54
+verifico el tkt IM02001415 en el archivo logs/closed.log - 23/11/15 11:54
+Connection Doit... - 23/11/15 11:54
+Response Code : 200 - 23/11/15 11:54
+Comunication success...   - 23/11/15 11:54
+Response Code : 200 - 23/11/15 11:54
+Comunication success...   - 23/11/15 11:54
+Response Code : 200 - 23/11/15 11:54
+Comunication success...   - 23/11/15 11:54
+Response Code : 200 - 23/11/15 11:54
+Comunication success...   - 23/11/15 11:54
+Response Code : 200 - 23/11/15 11:54
+Comunication success...   - 23/11/15 11:54
+Response Code : 200 - 23/11/15 11:54
+Comunication success...   - 23/11/15 11:54
+Response Code : 200 - 23/11/15 11:54
+Comunication success...   - 23/11/15 11:54
+Response Code : 200 - 23/11/15 11:54
+Comunication success...   - 23/11/15 11:54
+Error de autenticacion contra Doit - 23/11/15 11:54
+Waiting... - 23/11/15 11:54
+Timer created! - 23/11/15 11:56
+init_server - 23/11/15 11:56
+Timer created! - 23/11/15 11:57
+init_server - 23/11/15 11:57
+Timer created! - 23/11/15 11:58
+init_server - 23/11/15 11:58
+schedule 1.0hs - 23/11/15 11:59
+TASKER INIT! - 23/11/15 11:59
+Start ok 23/11/15 11:59 - 23/11/15 11:59
+Login... - 23/11/15 11:59
+Response Code : 200 - 23/11/15 11:59
+Comunication success...   - 23/11/15 11:59
+Connection Itracker... - 23/11/15 11:59
+Response Code : 200 - 23/11/15 11:59
+Comunication success...   - 23/11/15 11:59
+Existen 8 tickets... - 23/11/15 11:59
+verifico el tkt IM00483031 en el archivo logs/closed.log - 23/11/15 11:59
+verifico el tkt IM00900231 en el archivo logs/closed.log - 23/11/15 11:59
+verifico el tkt SD02000357 en el archivo logs/closed.log - 23/11/15 11:59
+verifico el tkt IM00900152 en el archivo logs/closed.log - 23/11/15 11:59
+verifico el tkt IM00900583 en el archivo logs/closed.log - 23/11/15 11:59
+verifico el tkt IM00900379 en el archivo logs/closed.log - 23/11/15 11:59
+verifico el tkt IM00900194 en el archivo logs/closed.log - 23/11/15 11:59
+verifico el tkt IM02001415 en el archivo logs/closed.log - 23/11/15 11:59
+Connection Doit... - 23/11/15 11:59
+Response Code : 200 - 23/11/15 11:59
+Comunication success...   - 23/11/15 11:59
+Response Code : 200 - 23/11/15 11:59
+Comunication success...   - 23/11/15 11:59
+Response Code : 200 - 23/11/15 11:59
+Comunication success...   - 23/11/15 11:59
+Response Code : 200 - 23/11/15 11:59
+Comunication success...   - 23/11/15 11:59
+Response Code : 200 - 23/11/15 11:59
+Comunication success...   - 23/11/15 11:59
+Response Code : 200 - 23/11/15 11:59
+Comunication success...   - 23/11/15 11:59
+Response Code : 200 - 23/11/15 11:59
+Comunication success...   - 23/11/15 11:59
+Response Code : 200 - 23/11/15 11:59
+Comunication success...   - 23/11/15 11:59
+Error de autenticacion contra Doit - 23/11/15 11:59
+Waiting... - 23/11/15 11:59
+schedule 0.0hs - 23/11/15 11:59
+TASKER CLOSE! - 23/11/15 11:59
+Timer created! - 23/11/15 11:59
+schedule 12.0hs - 23/11/15 11:59
+TASKER INIT! - 23/11/15 11:59
+init_server - 23/11/15 11:59
+Start ok 23/11/15 11:59 - 23/11/15 11:59
+Login... - 23/11/15 11:59
+Response Code : 200 - 23/11/15 11:59
+Comunication success...   - 23/11/15 11:59
+Connection Itracker... - 23/11/15 11:59
+Response Code : 200 - 23/11/15 11:59
+Comunication success...   - 23/11/15 11:59
+Existen 8 tickets... - 23/11/15 11:59
+verifico el tkt IM00483031 en el archivo logs/closed.log - 23/11/15 11:59
+verifico el tkt IM00900231 en el archivo logs/closed.log - 23/11/15 11:59
+verifico el tkt SD02000357 en el archivo logs/closed.log - 23/11/15 11:59
+verifico el tkt IM00900152 en el archivo logs/closed.log - 23/11/15 11:59
+verifico el tkt IM00900583 en el archivo logs/closed.log - 23/11/15 11:59
+verifico el tkt IM00900379 en el archivo logs/closed.log - 23/11/15 11:59
+verifico el tkt IM00900194 en el archivo logs/closed.log - 23/11/15 11:59
+verifico el tkt IM02001415 en el archivo logs/closed.log - 23/11/15 11:59
+Connection Doit... - 23/11/15 11:59
+Response Code : 200 - 23/11/15 11:59
+Comunication success...   - 23/11/15 11:59
+Response Code : 200 - 23/11/15 11:59
+Comunication success...   - 23/11/15 11:59
+Response Code : 200 - 23/11/15 11:59
+Comunication success...   - 23/11/15 11:59
+Response Code : 200 - 23/11/15 11:59
+Comunication success...   - 23/11/15 11:59
+Response Code : 200 - 23/11/15 11:59
+Comunication success...   - 23/11/15 11:59
+Response Code : 200 - 23/11/15 11:59
+Comunication success...   - 23/11/15 11:59
+Response Code : 200 - 23/11/15 11:59
+Comunication success...   - 23/11/15 11:59
+Response Code : 200 - 23/11/15 11:59
+Comunication success...   - 23/11/15 11:59
+Error de autenticacion contra Doit - 23/11/15 11:59
+Waiting... - 23/11/15 11:59
+schedule 0.0hs - 23/11/15 12:00
+TASKER CLOSE! - 23/11/15 12:00
+schedule 1.0hs - 23/11/15 12:00
+TASKER INIT! - 23/11/15 12:00
+Start ok 23/11/15 12:00 - 23/11/15 12:00
+Login... - 23/11/15 12:00
+Response Code : 200 - 23/11/15 12:00
+Comunication success...   - 23/11/15 12:00
+Connection Itracker... - 23/11/15 12:00
+Response Code : 200 - 23/11/15 12:00
+Comunication success...   - 23/11/15 12:00
+Existen 8 tickets... - 23/11/15 12:00
+verifico el tkt IM00483031 en el archivo logs/closed.log - 23/11/15 12:00
+verifico el tkt IM00900231 en el archivo logs/closed.log - 23/11/15 12:00
+verifico el tkt SD02000357 en el archivo logs/closed.log - 23/11/15 12:00
+verifico el tkt IM00900152 en el archivo logs/closed.log - 23/11/15 12:00
+verifico el tkt IM00900583 en el archivo logs/closed.log - 23/11/15 12:00
+verifico el tkt IM00900379 en el archivo logs/closed.log - 23/11/15 12:00
+verifico el tkt IM00900194 en el archivo logs/closed.log - 23/11/15 12:00
+verifico el tkt IM02001415 en el archivo logs/closed.log - 23/11/15 12:00
+Connection Doit... - 23/11/15 12:00
+Response Code : 200 - 23/11/15 12:00
+Comunication success...   - 23/11/15 12:00
+Response Code : 200 - 23/11/15 12:00
+Comunication success...   - 23/11/15 12:00
+Response Code : 200 - 23/11/15 12:00
+Comunication success...   - 23/11/15 12:00
+Response Code : 200 - 23/11/15 12:00
+Comunication success...   - 23/11/15 12:00
+Response Code : 200 - 23/11/15 12:00
+Comunication success...   - 23/11/15 12:00
+Response Code : 200 - 23/11/15 12:00
+Comunication success...   - 23/11/15 12:00
+Response Code : 200 - 23/11/15 12:00
+Comunication success...   - 23/11/15 12:00
+Response Code : 200 - 23/11/15 12:00
+Comunication success...   - 23/11/15 12:00
+Error de autenticacion contra Doit - 23/11/15 12:00
+Waiting... - 23/11/15 12:00
+Timer created! - 23/11/15 12:08
+schedule 12.0hs - 23/11/15 12:08
+Start ok 23/11/15 12:08 - 23/11/15 12:08
+TASKER INIT! - 23/11/15 12:08
+Login... - 23/11/15 12:08
+init_server - 23/11/15 12:08
+Response Code : 200 - 23/11/15 12:08
+Comunication success...   - 23/11/15 12:08
+Connection Itracker... - 23/11/15 12:08
+Response Code : 200 - 23/11/15 12:08
+Comunication success...   - 23/11/15 12:08
+Existen 8 tickets... - 23/11/15 12:08
+verifico el tkt IM00483031 en el archivo logs/closed.log - 23/11/15 12:08
+verifico el tkt IM00900231 en el archivo logs/closed.log - 23/11/15 12:08
+verifico el tkt SD02000357 en el archivo logs/closed.log - 23/11/15 12:08
+verifico el tkt IM00900152 en el archivo logs/closed.log - 23/11/15 12:08
+verifico el tkt IM00900583 en el archivo logs/closed.log - 23/11/15 12:08
+verifico el tkt IM00900379 en el archivo logs/closed.log - 23/11/15 12:08
+verifico el tkt IM00900194 en el archivo logs/closed.log - 23/11/15 12:08
+verifico el tkt IM02001415 en el archivo logs/closed.log - 23/11/15 12:08
+Connection Doit... - 23/11/15 12:08
+Response Code : 200 - 23/11/15 12:08
+Comunication success...   - 23/11/15 12:08
+Response Code : 200 - 23/11/15 12:08
+Comunication success...   - 23/11/15 12:08
+Response Code : 200 - 23/11/15 12:08
+Comunication success...   - 23/11/15 12:08
+Response Code : 200 - 23/11/15 12:08
+Comunication success...   - 23/11/15 12:08
+Response Code : 200 - 23/11/15 12:08
+Comunication success...   - 23/11/15 12:08
+Response Code : 200 - 23/11/15 12:08
+Comunication success...   - 23/11/15 12:08
+Response Code : 200 - 23/11/15 12:08
+Comunication success...   - 23/11/15 12:08
+Response Code : 200 - 23/11/15 12:08
+Comunication success...   - 23/11/15 12:08
+Error de autenticacion contra Doit - 23/11/15 12:08
+Waiting... - 23/11/15 12:08
+schedule 0.0hs - 23/11/15 12:08
+TASKER CLOSE! - 23/11/15 12:08
+schedule 133.0hs - 23/11/15 12:08
+TASKER INIT! - 23/11/15 12:08
+Start ok 23/11/15 12:08 - 23/11/15 12:08
+Login... - 23/11/15 12:08
+Response Code : 200 - 23/11/15 12:08
+Comunication success...   - 23/11/15 12:08
+Connection Itracker... - 23/11/15 12:08
+Response Code : 200 - 23/11/15 12:08
+Comunication success...   - 23/11/15 12:08
+Existen 8 tickets... - 23/11/15 12:08
+verifico el tkt IM00483031 en el archivo logs/closed.log - 23/11/15 12:08
+verifico el tkt IM00900231 en el archivo logs/closed.log - 23/11/15 12:08
+verifico el tkt SD02000357 en el archivo logs/closed.log - 23/11/15 12:08
+verifico el tkt IM00900152 en el archivo logs/closed.log - 23/11/15 12:08
+verifico el tkt IM00900583 en el archivo logs/closed.log - 23/11/15 12:08
+verifico el tkt IM00900379 en el archivo logs/closed.log - 23/11/15 12:08
+verifico el tkt IM00900194 en el archivo logs/closed.log - 23/11/15 12:08
+verifico el tkt IM02001415 en el archivo logs/closed.log - 23/11/15 12:08
+Connection Doit... - 23/11/15 12:08
+Response Code : 200 - 23/11/15 12:08
+Comunication success...   - 23/11/15 12:08
+Response Code : 200 - 23/11/15 12:08
+Comunication success...   - 23/11/15 12:08
+Response Code : 200 - 23/11/15 12:08
+Comunication success...   - 23/11/15 12:08
+Response Code : 200 - 23/11/15 12:08
+Comunication success...   - 23/11/15 12:08
+Response Code : 200 - 23/11/15 12:08
+Comunication success...   - 23/11/15 12:08
+Response Code : 200 - 23/11/15 12:08
+Comunication success...   - 23/11/15 12:08
+Response Code : 200 - 23/11/15 12:08
+Comunication success...   - 23/11/15 12:08
+Response Code : 200 - 23/11/15 12:08
+Comunication success...   - 23/11/15 12:08
+Error de autenticacion contra Doit - 23/11/15 12:08
+Waiting... - 23/11/15 12:08
+Timer created! - 23/11/15 12:28
+schedule 12.0hs - 23/11/15 12:28
+TASKER INIT! - 23/11/15 12:28
+Start ok 23/11/15 12:28 - 23/11/15 12:28
+init_server - 23/11/15 12:28
+Login... - 23/11/15 12:28
+Response Code : 200 - 23/11/15 12:28
+Comunication success...   - 23/11/15 12:28
+Connection Itracker... - 23/11/15 12:28
+Response Code : 200 - 23/11/15 12:29
+Comunication success...   - 23/11/15 12:29
+Existen 8 tickets... - 23/11/15 12:29
+verifico el tkt IM00483031 en el archivo logs/closed.log - 23/11/15 12:29
+verifico el tkt IM00900231 en el archivo logs/closed.log - 23/11/15 12:29
+verifico el tkt SD02000357 en el archivo logs/closed.log - 23/11/15 12:29
+verifico el tkt IM00900152 en el archivo logs/closed.log - 23/11/15 12:29
+verifico el tkt IM00900583 en el archivo logs/closed.log - 23/11/15 12:29
+verifico el tkt IM00900379 en el archivo logs/closed.log - 23/11/15 12:29
+verifico el tkt IM00900194 en el archivo logs/closed.log - 23/11/15 12:29
+verifico el tkt IM02001415 en el archivo logs/closed.log - 23/11/15 12:29
+Connection Doit... - 23/11/15 12:29
+Response Code : 200 - 23/11/15 12:29
+Comunication success...   - 23/11/15 12:29
+Response Code : 200 - 23/11/15 12:29
+Comunication success...   - 23/11/15 12:29
+Response Code : 200 - 23/11/15 12:29
+Comunication success...   - 23/11/15 12:29
+Response Code : 200 - 23/11/15 12:29
+Comunication success...   - 23/11/15 12:29
+Response Code : 200 - 23/11/15 12:29
+Comunication success...   - 23/11/15 12:29
+Response Code : 200 - 23/11/15 12:29
+Comunication success...   - 23/11/15 12:29
+Response Code : 200 - 23/11/15 12:29
+Comunication success...   - 23/11/15 12:29
+Response Code : 200 - 23/11/15 12:29
+Comunication success...   - 23/11/15 12:29
+Error de autenticacion contra Doit - 23/11/15 12:29
+Waiting... - 23/11/15 12:29
+schedule 0.0hs - 23/11/15 12:30
+TASKER CLOSE! - 23/11/15 12:30
+schedule 0.0hs - 23/11/15 12:47
+TASKER CLOSE! - 23/11/15 12:47
+schedule 1.0hs - 23/11/15 12:48
+TASKER INIT! - 23/11/15 12:48
+Start ok 23/11/15 12:48 - 23/11/15 12:48
+Login... - 23/11/15 12:48
+Response Code : 200 - 23/11/15 12:48
+Comunication success...   - 23/11/15 12:48
+Connection Itracker... - 23/11/15 12:48
+Response Code : 200 - 23/11/15 12:48
+Comunication success...   - 23/11/15 12:48
+Existen 8 tickets... - 23/11/15 12:48
+verifico el tkt IM00483031 en el archivo logs/closed.log - 23/11/15 12:48
+verifico el tkt IM00900231 en el archivo logs/closed.log - 23/11/15 12:48
+verifico el tkt SD02000357 en el archivo logs/closed.log - 23/11/15 12:48
+verifico el tkt IM00900152 en el archivo logs/closed.log - 23/11/15 12:48
+verifico el tkt IM00900583 en el archivo logs/closed.log - 23/11/15 12:48
+verifico el tkt IM00900379 en el archivo logs/closed.log - 23/11/15 12:48
+verifico el tkt IM00900194 en el archivo logs/closed.log - 23/11/15 12:48
+verifico el tkt IM02001415 en el archivo logs/closed.log - 23/11/15 12:48
+Connection Doit... - 23/11/15 12:48
+Response Code : 200 - 23/11/15 12:48
+Comunication success...   - 23/11/15 12:48
+Response Code : 200 - 23/11/15 12:48
+Comunication success...   - 23/11/15 12:48
+Response Code : 200 - 23/11/15 12:48
+Comunication success...   - 23/11/15 12:48
+Response Code : 200 - 23/11/15 12:48
+Comunication success...   - 23/11/15 12:48
+Response Code : 200 - 23/11/15 12:48
+Comunication success...   - 23/11/15 12:48
+Response Code : 200 - 23/11/15 12:48
+Comunication success...   - 23/11/15 12:48
+Response Code : 200 - 23/11/15 12:48
+Comunication success...   - 23/11/15 12:48
+Response Code : 200 - 23/11/15 12:48
+Comunication success...   - 23/11/15 12:48
+Error de autenticacion contra Doit - 23/11/15 12:48
+Waiting... - 23/11/15 12:48
+Start ok 23/11/15 14:07 - 23/11/15 14:07
+Login... - 23/11/15 14:07
+Response Code : 200 - 23/11/15 14:07
+Comunication success...   - 23/11/15 14:07
+Connection Itracker... - 23/11/15 14:07
+Response Code : 200 - 23/11/15 14:08
+Comunication success...   - 23/11/15 14:08
+Existen 8 tickets... - 23/11/15 14:08
+verifico el tkt IM00483031 en el archivo logs/closed.log - 23/11/15 14:08
+verifico el tkt IM00900231 en el archivo logs/closed.log - 23/11/15 14:08
+verifico el tkt SD02000357 en el archivo logs/closed.log - 23/11/15 14:08
+verifico el tkt IM00900152 en el archivo logs/closed.log - 23/11/15 14:08
+verifico el tkt IM00900583 en el archivo logs/closed.log - 23/11/15 14:08
+verifico el tkt IM00900379 en el archivo logs/closed.log - 23/11/15 14:08
+verifico el tkt IM00900194 en el archivo logs/closed.log - 23/11/15 14:08
+verifico el tkt IM02001415 en el archivo logs/closed.log - 23/11/15 14:08
+Connection Doit... - 23/11/15 14:08
+Response Code : 200 - 23/11/15 14:08
+Comunication success...   - 23/11/15 14:08
+Response Code : 200 - 23/11/15 14:08
+Comunication success...   - 23/11/15 14:08
+Response Code : 200 - 23/11/15 14:08
+Comunication success...   - 23/11/15 14:08
+Response Code : 200 - 23/11/15 14:08
+Comunication success...   - 23/11/15 14:08
+Response Code : 200 - 23/11/15 14:08
+Comunication success...   - 23/11/15 14:08
+Response Code : 200 - 23/11/15 14:08
+Comunication success...   - 23/11/15 14:08
+Response Code : 200 - 23/11/15 14:08
+Comunication success...   - 23/11/15 14:08
+Response Code : 200 - 23/11/15 14:08
+Comunication success...   - 23/11/15 14:08
+Error de autenticacion contra Doit - 23/11/15 14:08
+Waiting... - 23/11/15 14:08
+schedule 2.0hs - 23/11/15 14:19
+TASKER INIT! - 23/11/15 14:19
+Start ok 23/11/15 14:19 - 23/11/15 14:19
+Login... - 23/11/15 14:19
+Response Code : 200 - 23/11/15 14:20
+Comunication success...   - 23/11/15 14:20
+Connection Itracker... - 23/11/15 14:20
+Response Code : 200 - 23/11/15 14:20
+Comunication success...   - 23/11/15 14:20
+Existen 8 tickets... - 23/11/15 14:20
+verifico el tkt IM00483031 en el archivo logs/closed.log - 23/11/15 14:20
+verifico el tkt IM00900231 en el archivo logs/closed.log - 23/11/15 14:20
+verifico el tkt SD02000357 en el archivo logs/closed.log - 23/11/15 14:20
+verifico el tkt IM00900152 en el archivo logs/closed.log - 23/11/15 14:20
+verifico el tkt IM00900583 en el archivo logs/closed.log - 23/11/15 14:20
+verifico el tkt IM00900379 en el archivo logs/closed.log - 23/11/15 14:20
+verifico el tkt IM00900194 en el archivo logs/closed.log - 23/11/15 14:20
+verifico el tkt IM02001415 en el archivo logs/closed.log - 23/11/15 14:20
+Connection Doit... - 23/11/15 14:20
+Response Code : 200 - 23/11/15 14:20
+Comunication success...   - 23/11/15 14:20
+Response Code : 200 - 23/11/15 14:20
+Comunication success...   - 23/11/15 14:20
+Response Code : 200 - 23/11/15 14:20
+Comunication success...   - 23/11/15 14:20
+Response Code : 200 - 23/11/15 14:20
+Comunication success...   - 23/11/15 14:20
+Response Code : 200 - 23/11/15 14:20
+Comunication success...   - 23/11/15 14:20
+Response Code : 200 - 23/11/15 14:20
+Comunication success...   - 23/11/15 14:20
+Response Code : 200 - 23/11/15 14:20
+Comunication success...   - 23/11/15 14:20
+Response Code : 200 - 23/11/15 14:20
+Comunication success...   - 23/11/15 14:20
+Error de autenticacion contra Doit - 23/11/15 14:20
+Waiting... - 23/11/15 14:20
+Start ok 23/11/15 16:26 - 23/11/15 16:26
+Login... - 23/11/15 16:26
+Response Code : 200 - 23/11/15 16:26
+Comunication success...   - 23/11/15 16:26
+Connection Itracker... - 23/11/15 16:26
+Response Code : 200 - 23/11/15 16:26
+Comunication success...   - 23/11/15 16:26
+Existen 8 tickets... - 23/11/15 16:26
+verifico el tkt IM00483031 en el archivo logs/closed.log - 23/11/15 16:26
+verifico el tkt IM00900231 en el archivo logs/closed.log - 23/11/15 16:26
+verifico el tkt SD02000357 en el archivo logs/closed.log - 23/11/15 16:26
+verifico el tkt IM00900152 en el archivo logs/closed.log - 23/11/15 16:26
+verifico el tkt IM00900583 en el archivo logs/closed.log - 23/11/15 16:26
+verifico el tkt IM00900379 en el archivo logs/closed.log - 23/11/15 16:26
+verifico el tkt IM00900194 en el archivo logs/closed.log - 23/11/15 16:26
+verifico el tkt IM02001415 en el archivo logs/closed.log - 23/11/15 16:26
+Connection Doit... - 23/11/15 16:26
+Response Code : 200 - 23/11/15 16:26
+Comunication success...   - 23/11/15 16:26
+Response Code : 200 - 23/11/15 16:26
+Comunication success...   - 23/11/15 16:26
+Response Code : 200 - 23/11/15 16:26
+Comunication success...   - 23/11/15 16:26
+Response Code : 200 - 23/11/15 16:26
+Comunication success...   - 23/11/15 16:26
+Response Code : 200 - 23/11/15 16:26
+Comunication success...   - 23/11/15 16:26
+Response Code : 200 - 23/11/15 16:26
+Comunication success...   - 23/11/15 16:26
+Response Code : 200 - 23/11/15 16:26
+Comunication success...   - 23/11/15 16:26
+Response Code : 200 - 23/11/15 16:26
+Comunication success...   - 23/11/15 16:26
+El incidente IM00483031 no existe en Doit - 23/11/15 16:26
+El incidente IM00900231 no existe en Doit - 23/11/15 16:26
+El incidente SD02000357 no existe en Doit - 23/11/15 16:26
+El incidente IM00900152 no existe en Doit - 23/11/15 16:26
+El incidente IM00900583 no existe en Doit - 23/11/15 16:26
+El incidente IM00900379 no existe en Doit - 23/11/15 16:26
+El incidente IM00900194 no existe en Doit - 23/11/15 16:26
+Quedan 1 tickets luego del filtro... - 23/11/15 16:26
+verifico el tkt IM02001415 en el archivo logs/commented.log - 23/11/15 16:26
+No se volvera a comentar el tkt 7431 - 23/11/15 16:26
+Waiting... - 23/11/15 16:26

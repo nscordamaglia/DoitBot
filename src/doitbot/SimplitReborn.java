@@ -128,7 +128,7 @@ public class SimplitReborn {
                    }else{
                         
                         System.out.println(doitlist.getStatus());
-                        logServer.file(getlist.getStatus(), "logs/logserver.log");
+                        logServer.file(doitlist.getStatus(), "logs/logserver.log");
                         
                         }   
             }

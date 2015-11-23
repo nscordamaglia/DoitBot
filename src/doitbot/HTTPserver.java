@@ -57,9 +57,10 @@ class HTTPserver {
         
         public MyHandler(HTTPserver s){
            
-                String time = ConfigManager.getAppSetting("Time");
-                //inicio la programacion de la tarea
-                timer.tasker(s,Float.valueOf(time),new Date()); 
+           server =s;
+           String time = ConfigManager.getAppSetting("Time");
+           //inicio la programacion de la tarea
+           timer.tasker(this.server,Float.valueOf(time),new Date()); 
             
         }
         /**
@@ -93,13 +94,13 @@ class HTTPserver {
                 isr.close();
                 
                 String value = buf.toString(); System.out.println(value);
-                String delay = value.substring(5, 6);System.out.println(delay);
-                String dateInString =  value.substring(12, value.length()); System.out.println(dateInString);
-                SimpleDateFormat formatter = new SimpleDateFormat("MM-dd-yyyy HH:mm a");
-                dateInString = dateInString.replace("%2F","-");
-                dateInString = dateInString.replace("+"," ");
-                dateInString = dateInString.replace("%3A",":");
-                System.out.println(dateInString);
+                String delay = value.split("=")[1];
+//                String dateInString =  value.substring(12, value.length()); System.out.println(dateInString);
+//                SimpleDateFormat formatter = new SimpleDateFormat("MM-dd-yyyy HH:mm a");
+//                dateInString = dateInString.replace("%2F","-");
+//                dateInString = dateInString.replace("+"," ");
+//                dateInString = dateInString.replace("%3A",":");
+//                System.out.println(dateInString);
                 //Date date = formatter.parse(dateInString);
                 
                 //inicio la programacion de la tarea
