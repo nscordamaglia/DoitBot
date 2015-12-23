@@ -39,7 +39,7 @@ class Save {
                                 filew = new FileWriter(path,true);
                                 pw = new PrintWriter(filew);
                                 
-                                if ("logs/reporting.csv".equals(path)||"logs/reportingHist.csv".equals(path) ){
+                                if ("logs/reporting.csv".equals(path)||"logs/reportingHist.csv".equals(path)||"logs/ReporteIM.csv".equals(path) ){
                                     
                                 pw.println(data);
                                 
@@ -73,6 +73,7 @@ class Save {
             public void Exist(String path) throws IOException {
                 
                  String headerCSV = "TKT iTracker;TKT Simplit;Grupo Simplit;Estado del TKT Simplit;Fecha de Apertura;Fecha de Cierre;Texto de apertura;Texto de cierre;Fecha de consulta";
+                 String headerIM ="Incidente;Grupo;Estado";
                  File file = null;
                  File oldFile = null;
                  file = new File(path);/*  destino de fichero */
@@ -103,6 +104,16 @@ class Save {
                                         //si existe lo borro, ya que el master debe ser unico por cada tarea realizada
                                         if(file.exists()){
                                                 file.delete();  
+                                                
+                                        }
+                                       
+                                }else if (path == "logs/ReporteIM.csv"){
+                                
+                                        //si no existe lo creo
+                                        if(!file.exists()){
+                                            
+                                                file.createNewFile();
+                                                this.file(headerIM, path); 
                                                 
                                         }
                                        

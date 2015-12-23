@@ -8,10 +8,10 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- *
+ * Clase principal
  * @author Nicolas Scordamaglia
  */
-public class SimplitReborn {
+public class Doitbot {
 
     /**
      * @param args the command line arguments
@@ -22,9 +22,12 @@ public class SimplitReborn {
             server.start();
             
         } catch (Exception ex) {
-            Logger.getLogger(SimplitReborn.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Doitbot.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
+    /**
+     * Metodo que se inicia con el scheduling para comenzar las tareas de busqueda y actualizacion de incidentes doit
+     */
 
     static void start() {
         
@@ -34,6 +37,7 @@ public class SimplitReborn {
         Date now = new Date();
         String date = DateFormat.getInstance().format(now);
         Save logServer = new Save();
+        SendMail mail = new SendMail();
         System.out.println("Start ok " + date);
         logServer.file("Start ok " + date, "logs/logserver.log");
         
@@ -100,6 +104,7 @@ public class SimplitReborn {
                                                     
                                                     System.out.println("No se volvera a comentar el tkt " + tkt.getId());
                                                     logServer.file("No se volvera a comentar el tkt " + tkt.getId(), "logs/logserver.log");
+                                                    logServer.file(tkt.getIncidentID()+";"+tkt.getPrimaryAssignmentGroup()+";"+tkt.getStatus(), "logs/ReporteIM.csv");
                                                     itertkt.remove();
 
                                                 }
@@ -112,6 +117,7 @@ public class SimplitReborn {
 
                                                     System.out.println("No se volvera a comentar el tkt " + tkt.getId());
                                                     logServer.file("No se volvera a comentar el tkt " + tkt.getId(), "logs/logserver.log");
+                                                    logServer.file(tkt.getIncidentID()+";"+tkt.getPrimaryAssignmentGroup()+";"+tkt.getStatus(), "logs/ReporteIM.csv");
                                                     itertkt.remove();
 
                                                 }
@@ -133,7 +139,8 @@ public class SimplitReborn {
                         }   
             }
        }
-             
         
+        
+        mail.Ready();
     }
 }

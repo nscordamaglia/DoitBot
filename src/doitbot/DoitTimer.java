@@ -10,7 +10,7 @@ import java.util.TimerTask;
  * Calse que se encarga de inicializar la programacion de las acciones
  * @author Nicolas Scordamaglia
  */
-class SimplitTimer {
+class DoitTimer {
     
      Timer timer;
         int count = 0;
@@ -20,7 +20,7 @@ class SimplitTimer {
         /**
          * Genera el programador de tareas
          */
-        public SimplitTimer(){
+        public DoitTimer(){
             timer = new Timer () ; //instancia inicial de una programacion de tareas
             System.out.println("RUN!");
             
@@ -79,7 +79,7 @@ class SimplitTimer {
               
                 public void run() {
                    
-                        SimplitReborn.start();// ejecucion del proceso ppal
+                        Doitbot.start();// ejecucion del proceso ppal
                         System.out.println("Waiting...");
                         logStart.file("Waiting...", "logs/logserver.log");
 

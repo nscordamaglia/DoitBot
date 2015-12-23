@@ -125,7 +125,7 @@ class Request {
 
                     int responseCode = con.getResponseCode();
                    //System.out.println("\nSending 'POST' request to URL : " + url);
-                    //System.out.println("Post parameters : " + params);
+                    System.out.println("Post parameters : " + params);
                     //System.out.println("Response Code : " + responseCode);
                     logStart.file("Response Code : " + responseCode, "logs/logserver.log");
                     if (responseCode != 404 && responseCode != 500){
@@ -143,7 +143,7 @@ class Request {
                     in.close();
 
                     //imprime resultado
-                   //System.out.println(response.toString());
+                   System.out.println(response.toString());
                   
                     getResponse = response.toString();
                     }else{

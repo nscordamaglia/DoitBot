@@ -19,7 +19,7 @@ import java.util.Date;
  */
 class HTTPserver {
     
-    private SimplitTimer timer=new SimplitTimer();//instacia inicial del objeto programador de tareas
+    private DoitTimer timer=new DoitTimer();//instacia inicial del objeto programador de tareas
     private HttpServer server;
     
     
@@ -36,6 +36,7 @@ class HTTPserver {
         Save logStart = new Save();
         logStart.file("init_server", "logs/logserver.log");
         logStart.Exist("logs/master.log");
+        logStart.Exist("logs/ReporteIM.csv");
         //logStart.Exist("logs/reporting.csv");
         /*try 
         {
@@ -51,10 +52,17 @@ class HTTPserver {
      */
     public HttpServer get_server(){return server;}
     
+    /**
+     * Metodo para capturar los datos por http y generar el primer scheduling al inicio
+     */
     private class MyHandler implements HttpHandler {
         
         private HTTPserver server;
         
+        /**
+         * Metodo para generar el primer scheduling
+         * @param s 
+         */
         public MyHandler(HTTPserver s){
            
            server =s;

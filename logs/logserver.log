@@ -3155,3 +3155,887 @@ Quedan 1 tickets luego del filtro... - 23/11/15 16:26
 verifico el tkt IM02001415 en el archivo logs/commented.log - 23/11/15 16:26
 No se volvera a comentar el tkt 7431 - 23/11/15 16:26
 Waiting... - 23/11/15 16:26
+Timer created! - 17/12/15 16:00
+schedule 12.0hs - 17/12/15 16:00
+TASKER INIT! - 17/12/15 16:00
+Start ok 17/12/15 16:00 - 17/12/15 16:00
+init_server - 17/12/15 16:00
+Login... - 17/12/15 16:00
+Response Code : 404 - 17/12/15 16:00
+Comunication fail...   - 17/12/15 16:00
+error: falló la consulta - 17/12/15 16:00
+Waiting... - 17/12/15 16:00
+Timer created! - 17/12/15 16:11
+schedule 12.0hs - 17/12/15 16:11
+Start ok 17/12/15 16:11 - 17/12/15 16:11
+TASKER INIT! - 17/12/15 16:11
+init_server - 17/12/15 16:11
+Login... - 17/12/15 16:11
+Response Code : 200 - 17/12/15 16:11
+Comunication success...   - 17/12/15 16:11
+Connection Itracker... - 17/12/15 16:11
+Response Code : 200 - 17/12/15 16:11
+Comunication success...   - 17/12/15 16:11
+Existen 8 tickets... - 17/12/15 16:11
+verifico el tkt IM00483031 en el archivo logs/closed.log - 17/12/15 16:11
+verifico el tkt IM00900231 en el archivo logs/closed.log - 17/12/15 16:11
+verifico el tkt SD02000357 en el archivo logs/closed.log - 17/12/15 16:11
+verifico el tkt IM00900152 en el archivo logs/closed.log - 17/12/15 16:11
+verifico el tkt IM00900583 en el archivo logs/closed.log - 17/12/15 16:11
+verifico el tkt IM00900379 en el archivo logs/closed.log - 17/12/15 16:11
+verifico el tkt IM00900194 en el archivo logs/closed.log - 17/12/15 16:11
+verifico el tkt IM02001415 en el archivo logs/closed.log - 17/12/15 16:11
+Connection Doit... - 17/12/15 16:11
+Response Code : 200 - 17/12/15 16:11
+Comunication success...   - 17/12/15 16:11
+Response Code : 200 - 17/12/15 16:11
+Comunication success...   - 17/12/15 16:11
+Response Code : 200 - 17/12/15 16:11
+Comunication success...   - 17/12/15 16:11
+Response Code : 200 - 17/12/15 16:11
+Comunication success...   - 17/12/15 16:11
+Response Code : 200 - 17/12/15 16:11
+Comunication success...   - 17/12/15 16:11
+Response Code : 200 - 17/12/15 16:11
+Comunication success...   - 17/12/15 16:11
+Response Code : 200 - 17/12/15 16:11
+Comunication success...   - 17/12/15 16:11
+Response Code : 200 - 17/12/15 16:11
+Comunication success...   - 17/12/15 16:11
+Quedan 8 tickets luego del filtro... - 17/12/15 16:11
+verifico el tkt sin datos en el archivo logs/commented.log - 17/12/15 16:11
+verifico el tkt sin datos en el archivo logs/commented.log - 17/12/15 16:11
+verifico el tkt sin datos en el archivo logs/commented.log - 17/12/15 16:11
+verifico el tkt sin datos en el archivo logs/commented.log - 17/12/15 16:11
+verifico el tkt sin datos en el archivo logs/commented.log - 17/12/15 16:11
+verifico el tkt sin datos en el archivo logs/commented.log - 17/12/15 16:11
+verifico el tkt sin datos en el archivo logs/commented.log - 17/12/15 16:11
+verifico el tkt sin datos en el archivo logs/commented.log - 17/12/15 16:11
+Sending Actions... - 17/12/15 16:11
+Response Code : 200 - 17/12/15 16:11
+Comunication success...   - 17/12/15 16:11
+No se puede ejecutar accion en el tkt 3118 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 17/12/15 16:11
+Sending Actions... - 17/12/15 16:11
+Response Code : 200 - 17/12/15 16:11
+Comunication success...   - 17/12/15 16:11
+No se puede ejecutar accion en el tkt 7425 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 17/12/15 16:11
+Sending Actions... - 17/12/15 16:11
+Response Code : 200 - 17/12/15 16:11
+Comunication success...   - 17/12/15 16:11
+No se puede ejecutar accion en el tkt 7426 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 17/12/15 16:11
+Sending Actions... - 17/12/15 16:11
+Response Code : 200 - 17/12/15 16:11
+Comunication success...   - 17/12/15 16:11
+No se puede ejecutar accion en el tkt 7427 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 17/12/15 16:11
+Sending Actions... - 17/12/15 16:11
+Response Code : 200 - 17/12/15 16:11
+Comunication success...   - 17/12/15 16:11
+No se puede ejecutar accion en el tkt 7428 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 17/12/15 16:11
+Sending Actions... - 17/12/15 16:11
+Response Code : 200 - 17/12/15 16:11
+Comunication success...   - 17/12/15 16:11
+No se puede ejecutar accion en el tkt 7428 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 17/12/15 16:11
+Sending Actions... - 17/12/15 16:11
+Response Code : 200 - 17/12/15 16:11
+Comunication success...   - 17/12/15 16:11
+No se puede ejecutar accion en el tkt 7430 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 17/12/15 16:11
+Sending Actions... - 17/12/15 16:11
+Response Code : 200 - 17/12/15 16:11
+Comunication success...   - 17/12/15 16:11
+No se puede ejecutar accion en el tkt 7431 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 17/12/15 16:11
+Waiting... - 17/12/15 16:11
+Timer created! - 17/12/15 16:20
+schedule 12.0hs - 17/12/15 16:20
+TASKER INIT! - 17/12/15 16:20
+Start ok 17/12/15 16:20 - 17/12/15 16:20
+init_server - 17/12/15 16:20
+Login... - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+Connection Itracker... - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+Existen 8 tickets... - 17/12/15 16:20
+verifico el tkt IM00483031 en el archivo logs/closed.log - 17/12/15 16:20
+verifico el tkt IM00900231 en el archivo logs/closed.log - 17/12/15 16:20
+verifico el tkt SD02000357 en el archivo logs/closed.log - 17/12/15 16:20
+verifico el tkt IM00900152 en el archivo logs/closed.log - 17/12/15 16:20
+verifico el tkt IM00900583 en el archivo logs/closed.log - 17/12/15 16:20
+verifico el tkt IM00900379 en el archivo logs/closed.log - 17/12/15 16:20
+verifico el tkt IM00900194 en el archivo logs/closed.log - 17/12/15 16:20
+verifico el tkt IM02001415 en el archivo logs/closed.log - 17/12/15 16:20
+Connection Doit... - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+Quedan 8 tickets luego del filtro... - 17/12/15 16:20
+verifico el tkt sin datos en el archivo logs/commented.log - 17/12/15 16:20
+verifico el tkt sin datos en el archivo logs/commented.log - 17/12/15 16:20
+verifico el tkt sin datos en el archivo logs/commented.log - 17/12/15 16:20
+verifico el tkt sin datos en el archivo logs/commented.log - 17/12/15 16:20
+verifico el tkt sin datos en el archivo logs/commented.log - 17/12/15 16:20
+verifico el tkt sin datos en el archivo logs/commented.log - 17/12/15 16:20
+verifico el tkt sin datos en el archivo logs/commented.log - 17/12/15 16:20
+verifico el tkt sin datos en el archivo logs/commented.log - 17/12/15 16:20
+Sending Actions... - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+No se puede ejecutar accion en el tkt 3118 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 17/12/15 16:20
+Sending Actions... - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+No se puede ejecutar accion en el tkt 7425 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 17/12/15 16:20
+Sending Actions... - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+No se puede ejecutar accion en el tkt 7426 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 17/12/15 16:20
+Sending Actions... - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+No se puede ejecutar accion en el tkt 7427 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 17/12/15 16:20
+Sending Actions... - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+No se puede ejecutar accion en el tkt 7428 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 17/12/15 16:20
+Sending Actions... - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+No se puede ejecutar accion en el tkt 7428 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 17/12/15 16:20
+Sending Actions... - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+No se puede ejecutar accion en el tkt 7430 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 17/12/15 16:20
+Sending Actions... - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+No se puede ejecutar accion en el tkt 7431 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 17/12/15 16:20
+Waiting... - 17/12/15 16:20
+Timer created! - 17/12/15 16:20
+schedule 12.0hs - 17/12/15 16:20
+TASKER INIT! - 17/12/15 16:20
+Start ok 17/12/15 16:20 - 17/12/15 16:20
+Login... - 17/12/15 16:20
+init_server - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+Connection Itracker... - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+Existen 8 tickets... - 17/12/15 16:20
+verifico el tkt IM00483031 en el archivo logs/closed.log - 17/12/15 16:20
+verifico el tkt IM00900231 en el archivo logs/closed.log - 17/12/15 16:20
+verifico el tkt SD02000357 en el archivo logs/closed.log - 17/12/15 16:20
+verifico el tkt IM00900152 en el archivo logs/closed.log - 17/12/15 16:20
+verifico el tkt IM00900583 en el archivo logs/closed.log - 17/12/15 16:20
+verifico el tkt IM00900379 en el archivo logs/closed.log - 17/12/15 16:20
+verifico el tkt IM00900194 en el archivo logs/closed.log - 17/12/15 16:20
+verifico el tkt IM02001415 en el archivo logs/closed.log - 17/12/15 16:20
+Connection Doit... - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+Quedan 8 tickets luego del filtro... - 17/12/15 16:20
+verifico el tkt sin datos en el archivo logs/commented.log - 17/12/15 16:20
+verifico el tkt sin datos en el archivo logs/commented.log - 17/12/15 16:20
+verifico el tkt sin datos en el archivo logs/commented.log - 17/12/15 16:20
+verifico el tkt sin datos en el archivo logs/commented.log - 17/12/15 16:20
+verifico el tkt sin datos en el archivo logs/commented.log - 17/12/15 16:20
+verifico el tkt sin datos en el archivo logs/commented.log - 17/12/15 16:20
+verifico el tkt sin datos en el archivo logs/commented.log - 17/12/15 16:20
+verifico el tkt sin datos en el archivo logs/commented.log - 17/12/15 16:20
+Sending Actions... - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+No se puede ejecutar accion en el tkt 3118 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 17/12/15 16:20
+Sending Actions... - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+No se puede ejecutar accion en el tkt 7425 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 17/12/15 16:20
+Sending Actions... - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+No se puede ejecutar accion en el tkt 7426 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 17/12/15 16:20
+Sending Actions... - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+No se puede ejecutar accion en el tkt 7427 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 17/12/15 16:20
+Sending Actions... - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+No se puede ejecutar accion en el tkt 7428 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 17/12/15 16:20
+Sending Actions... - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+No se puede ejecutar accion en el tkt 7428 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 17/12/15 16:20
+Sending Actions... - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+No se puede ejecutar accion en el tkt 7430 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 17/12/15 16:20
+Sending Actions... - 17/12/15 16:20
+Response Code : 200 - 17/12/15 16:20
+Comunication success...   - 17/12/15 16:20
+No se puede ejecutar accion en el tkt 7431 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 17/12/15 16:20
+Waiting... - 17/12/15 16:20
+Timer created! - 23/12/15 10:27
+schedule 12.0hs - 23/12/15 10:27
+TASKER INIT! - 23/12/15 10:27
+init_server - 23/12/15 10:27
+Start ok 23/12/15 10:27 - 23/12/15 10:27
+Login... - 23/12/15 10:27
+Response Code : 200 - 23/12/15 10:27
+Comunication success...   - 23/12/15 10:27
+Connection Itracker... - 23/12/15 10:27
+Response Code : 200 - 23/12/15 10:27
+Comunication success...   - 23/12/15 10:27
+Existen 8 tickets... - 23/12/15 10:27
+verifico el tkt IM00483031 en el archivo logs/closed.log - 23/12/15 10:27
+verifico el tkt IM00900231 en el archivo logs/closed.log - 23/12/15 10:27
+verifico el tkt SD02000357 en el archivo logs/closed.log - 23/12/15 10:27
+verifico el tkt IM00900152 en el archivo logs/closed.log - 23/12/15 10:27
+verifico el tkt IM00900583 en el archivo logs/closed.log - 23/12/15 10:27
+verifico el tkt IM00900379 en el archivo logs/closed.log - 23/12/15 10:27
+verifico el tkt IM00900194 en el archivo logs/closed.log - 23/12/15 10:27
+verifico el tkt IM02001415 en el archivo logs/closed.log - 23/12/15 10:27
+Connection Doit... - 23/12/15 10:27
+Response Code : 200 - 23/12/15 10:27
+Comunication success...   - 23/12/15 10:27
+Response Code : 200 - 23/12/15 10:27
+Comunication success...   - 23/12/15 10:27
+Response Code : 200 - 23/12/15 10:27
+Comunication success...   - 23/12/15 10:27
+Response Code : 200 - 23/12/15 10:27
+Comunication success...   - 23/12/15 10:27
+Response Code : 200 - 23/12/15 10:27
+Comunication success...   - 23/12/15 10:27
+Response Code : 200 - 23/12/15 10:27
+Comunication success...   - 23/12/15 10:27
+Response Code : 200 - 23/12/15 10:27
+Comunication success...   - 23/12/15 10:27
+Response Code : 200 - 23/12/15 10:27
+Comunication success...   - 23/12/15 10:27
+Quedan 8 tickets luego del filtro... - 23/12/15 10:27
+verifico el tkt sin datos en el archivo logs/commented.log - 23/12/15 10:27
+verifico el tkt sin datos en el archivo logs/commented.log - 23/12/15 10:27
+verifico el tkt sin datos en el archivo logs/commented.log - 23/12/15 10:27
+verifico el tkt sin datos en el archivo logs/commented.log - 23/12/15 10:27
+verifico el tkt sin datos en el archivo logs/commented.log - 23/12/15 10:27
+verifico el tkt sin datos en el archivo logs/commented.log - 23/12/15 10:27
+verifico el tkt sin datos en el archivo logs/commented.log - 23/12/15 10:27
+verifico el tkt sin datos en el archivo logs/commented.log - 23/12/15 10:27
+Sending Actions... - 23/12/15 10:27
+Response Code : 200 - 23/12/15 10:27
+Comunication success...   - 23/12/15 10:27
+No se puede ejecutar accion en el tkt 3118 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 23/12/15 10:27
+Sending Actions... - 23/12/15 10:27
+Response Code : 200 - 23/12/15 10:27
+Comunication success...   - 23/12/15 10:27
+No se puede ejecutar accion en el tkt 7425 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 23/12/15 10:27
+Sending Actions... - 23/12/15 10:27
+Response Code : 200 - 23/12/15 10:27
+Comunication success...   - 23/12/15 10:27
+No se puede ejecutar accion en el tkt 7426 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 23/12/15 10:27
+Sending Actions... - 23/12/15 10:27
+Response Code : 200 - 23/12/15 10:27
+Comunication success...   - 23/12/15 10:27
+No se puede ejecutar accion en el tkt 7427 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 23/12/15 10:27
+Sending Actions... - 23/12/15 10:27
+Response Code : 200 - 23/12/15 10:27
+Comunication success...   - 23/12/15 10:27
+No se puede ejecutar accion en el tkt 7428 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 23/12/15 10:27
+Sending Actions... - 23/12/15 10:27
+Response Code : 200 - 23/12/15 10:27
+Comunication success...   - 23/12/15 10:27
+No se puede ejecutar accion en el tkt 7428 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 23/12/15 10:27
+Sending Actions... - 23/12/15 10:27
+Response Code : 200 - 23/12/15 10:27
+Comunication success...   - 23/12/15 10:27
+No se puede ejecutar accion en el tkt 7430 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 23/12/15 10:27
+Sending Actions... - 23/12/15 10:27
+Response Code : 200 - 23/12/15 10:27
+Comunication success...   - 23/12/15 10:27
+No se puede ejecutar accion en el tkt 7431 - error: Error en formulario. El campo Numero: debe ser numerico (Punto separador decimal). - 23/12/15 10:27
+Timer created! - 23/12/15 10:32
+schedule 12.0hs - 23/12/15 10:32
+TASKER INIT! - 23/12/15 10:32
+init_server - 23/12/15 10:32
+Start ok 23/12/15 10:32 - 23/12/15 10:32
+Login... - 23/12/15 10:32
+Response Code : 200 - 23/12/15 10:32
+Comunication success...   - 23/12/15 10:32
+Connection Itracker... - 23/12/15 10:32
+Response Code : 200 - 23/12/15 10:32
+Comunication success...   - 23/12/15 10:32
+Existen 8 tickets... - 23/12/15 10:32
+verifico el tkt IM00483031 en el archivo logs/closed.log - 23/12/15 10:32
+verifico el tkt IM00900231 en el archivo logs/closed.log - 23/12/15 10:32
+verifico el tkt SD02000357 en el archivo logs/closed.log - 23/12/15 10:32
+verifico el tkt IM00900152 en el archivo logs/closed.log - 23/12/15 10:32
+verifico el tkt IM00900583 en el archivo logs/closed.log - 23/12/15 10:32
+verifico el tkt IM00900379 en el archivo logs/closed.log - 23/12/15 10:32
+verifico el tkt IM00900194 en el archivo logs/closed.log - 23/12/15 10:32
+verifico el tkt IM02001415 en el archivo logs/closed.log - 23/12/15 10:32
+Connection Doit... - 23/12/15 10:32
+Response Code : 200 - 23/12/15 10:32
+Comunication success...   - 23/12/15 10:32
+Response Code : 200 - 23/12/15 10:32
+Comunication success...   - 23/12/15 10:32
+Response Code : 200 - 23/12/15 10:32
+Comunication success...   - 23/12/15 10:32
+Response Code : 200 - 23/12/15 10:32
+Comunication success...   - 23/12/15 10:32
+Response Code : 200 - 23/12/15 10:32
+Comunication success...   - 23/12/15 10:32
+Response Code : 200 - 23/12/15 10:32
+Comunication success...   - 23/12/15 10:32
+Response Code : 200 - 23/12/15 10:32
+Comunication success...   - 23/12/15 10:32
+Response Code : 200 - 23/12/15 10:32
+Comunication success...   - 23/12/15 10:32
+Error de autenticacion contra Doit - 23/12/15 10:32
+Waiting... - 23/12/15 10:32
+Timer created! - 23/12/15 10:33
+schedule 12.0hs - 23/12/15 10:33
+TASKER INIT! - 23/12/15 10:33
+init_server - 23/12/15 10:33
+Start ok 23/12/15 10:33 - 23/12/15 10:33
+Login... - 23/12/15 10:33
+Response Code : 200 - 23/12/15 10:33
+Comunication success...   - 23/12/15 10:33
+Connection Itracker... - 23/12/15 10:33
+Response Code : 200 - 23/12/15 10:33
+Comunication success...   - 23/12/15 10:33
+Existen 8 tickets... - 23/12/15 10:33
+verifico el tkt IM00483031 en el archivo logs/closed.log - 23/12/15 10:33
+verifico el tkt IM00900231 en el archivo logs/closed.log - 23/12/15 10:33
+verifico el tkt SD02000357 en el archivo logs/closed.log - 23/12/15 10:33
+verifico el tkt IM00900152 en el archivo logs/closed.log - 23/12/15 10:33
+verifico el tkt IM00900583 en el archivo logs/closed.log - 23/12/15 10:33
+verifico el tkt IM00900379 en el archivo logs/closed.log - 23/12/15 10:33
+verifico el tkt IM00900194 en el archivo logs/closed.log - 23/12/15 10:33
+verifico el tkt IM02001415 en el archivo logs/closed.log - 23/12/15 10:33
+Connection Doit... - 23/12/15 10:33
+Response Code : 200 - 23/12/15 10:33
+Comunication success...   - 23/12/15 10:33
+Response Code : 200 - 23/12/15 10:33
+Comunication success...   - 23/12/15 10:33
+Response Code : 200 - 23/12/15 10:33
+Comunication success...   - 23/12/15 10:33
+Response Code : 200 - 23/12/15 10:33
+Comunication success...   - 23/12/15 10:33
+Response Code : 200 - 23/12/15 10:33
+Comunication success...   - 23/12/15 10:33
+Response Code : 200 - 23/12/15 10:33
+Comunication success...   - 23/12/15 10:33
+Response Code : 200 - 23/12/15 10:33
+Comunication success...   - 23/12/15 10:33
+Response Code : 200 - 23/12/15 10:33
+Comunication success...   - 23/12/15 10:33
+El incidente IM00483031 no existe en Doit - 23/12/15 10:33
+El incidente SD02000357 no existe en Doit - 23/12/15 10:33
+El incidente IM02001415 no existe en Doit - 23/12/15 10:33
+Quedan 5 tickets luego del filtro... - 23/12/15 10:33
+verifico el tkt IM00900231 en el archivo logs/commented.log - 23/12/15 10:33
+No se volvera a comentar el tkt 7425 - 23/12/15 10:33
+verifico el tkt IM00900152 en el archivo logs/commented.log - 23/12/15 10:33
+No se volvera a comentar el tkt 7427 - 23/12/15 10:33
+verifico el tkt IM00900583 en el archivo logs/commented.log - 23/12/15 10:33
+No se volvera a comentar el tkt 7428 - 23/12/15 10:33
+verifico el tkt IM00900379 en el archivo logs/commented.log - 23/12/15 10:33
+No se volvera a comentar el tkt 7428 - 23/12/15 10:33
+verifico el tkt IM00900194 en el archivo logs/commented.log - 23/12/15 10:33
+No se volvera a comentar el tkt 7430 - 23/12/15 10:33
+Waiting... - 23/12/15 10:33
+Timer created! - 23/12/15 10:34
+schedule 12.0hs - 23/12/15 10:34
+TASKER INIT! - 23/12/15 10:34
+Start ok 23/12/15 10:34 - 23/12/15 10:34
+init_server - 23/12/15 10:34
+Login... - 23/12/15 10:34
+Response Code : 200 - 23/12/15 10:34
+Comunication success...   - 23/12/15 10:34
+Connection Itracker... - 23/12/15 10:34
+Response Code : 200 - 23/12/15 10:34
+Comunication success...   - 23/12/15 10:34
+Existen 8 tickets... - 23/12/15 10:34
+verifico el tkt IM00483031 en el archivo logs/closed.log - 23/12/15 10:34
+verifico el tkt IM00900231 en el archivo logs/closed.log - 23/12/15 10:34
+verifico el tkt SD02000357 en el archivo logs/closed.log - 23/12/15 10:34
+verifico el tkt IM00900152 en el archivo logs/closed.log - 23/12/15 10:34
+verifico el tkt IM00900583 en el archivo logs/closed.log - 23/12/15 10:34
+verifico el tkt IM00900379 en el archivo logs/closed.log - 23/12/15 10:34
+verifico el tkt IM00900194 en el archivo logs/closed.log - 23/12/15 10:34
+verifico el tkt IM02001415 en el archivo logs/closed.log - 23/12/15 10:34
+Connection Doit... - 23/12/15 10:34
+Response Code : 200 - 23/12/15 10:34
+Comunication success...   - 23/12/15 10:34
+Response Code : 200 - 23/12/15 10:34
+Comunication success...   - 23/12/15 10:34
+Response Code : 200 - 23/12/15 10:34
+Comunication success...   - 23/12/15 10:34
+Response Code : 200 - 23/12/15 10:34
+Comunication success...   - 23/12/15 10:34
+Response Code : 200 - 23/12/15 10:35
+Comunication success...   - 23/12/15 10:35
+Response Code : 200 - 23/12/15 10:35
+Comunication success...   - 23/12/15 10:35
+Response Code : 200 - 23/12/15 10:35
+Comunication success...   - 23/12/15 10:35
+Response Code : 200 - 23/12/15 10:35
+Comunication success...   - 23/12/15 10:35
+El incidente IM00483031 no existe en Doit - 23/12/15 10:35
+El incidente SD02000357 no existe en Doit - 23/12/15 10:35
+El incidente IM02001415 no existe en Doit - 23/12/15 10:35
+Quedan 5 tickets luego del filtro... - 23/12/15 10:35
+verifico el tkt IM00900231 en el archivo logs/commented.log - 23/12/15 10:35
+No se volvera a comentar el tkt 7425 - 23/12/15 10:35
+verifico el tkt IM00900152 en el archivo logs/commented.log - 23/12/15 10:35
+No se volvera a comentar el tkt 7427 - 23/12/15 10:35
+verifico el tkt IM00900583 en el archivo logs/commented.log - 23/12/15 10:35
+No se volvera a comentar el tkt 7428 - 23/12/15 10:35
+verifico el tkt IM00900379 en el archivo logs/commented.log - 23/12/15 10:35
+No se volvera a comentar el tkt 7428 - 23/12/15 10:35
+verifico el tkt IM00900194 en el archivo logs/commented.log - 23/12/15 10:35
+No se volvera a comentar el tkt 7430 - 23/12/15 10:35
+Waiting... - 23/12/15 10:35
+Timer created! - 23/12/15 10:50
+schedule 12.0hs - 23/12/15 10:50
+TASKER INIT! - 23/12/15 10:50
+init_server - 23/12/15 10:50
+Start ok 23/12/15 10:50 - 23/12/15 10:50
+Login... - 23/12/15 10:50
+Response Code : 200 - 23/12/15 10:50
+Comunication success...   - 23/12/15 10:50
+Connection Itracker... - 23/12/15 10:51
+Response Code : 200 - 23/12/15 10:51
+Comunication success...   - 23/12/15 10:51
+Existen 8 tickets... - 23/12/15 10:51
+verifico el tkt IM00483031 en el archivo logs/closed.log - 23/12/15 10:51
+verifico el tkt IM00900231 en el archivo logs/closed.log - 23/12/15 10:51
+verifico el tkt SD02000357 en el archivo logs/closed.log - 23/12/15 10:51
+verifico el tkt IM00900152 en el archivo logs/closed.log - 23/12/15 10:51
+verifico el tkt IM00900583 en el archivo logs/closed.log - 23/12/15 10:51
+verifico el tkt IM00900379 en el archivo logs/closed.log - 23/12/15 10:51
+verifico el tkt IM00900194 en el archivo logs/closed.log - 23/12/15 10:51
+verifico el tkt IM02001415 en el archivo logs/closed.log - 23/12/15 10:51
+Connection Doit... - 23/12/15 10:51
+Response Code : 200 - 23/12/15 10:51
+Comunication success...   - 23/12/15 10:51
+Response Code : 200 - 23/12/15 10:51
+Comunication success...   - 23/12/15 10:51
+Response Code : 200 - 23/12/15 10:51
+Comunication success...   - 23/12/15 10:51
+Response Code : 200 - 23/12/15 10:51
+Comunication success...   - 23/12/15 10:51
+Response Code : 200 - 23/12/15 10:51
+Comunication success...   - 23/12/15 10:51
+Response Code : 200 - 23/12/15 10:51
+Comunication success...   - 23/12/15 10:51
+Response Code : 200 - 23/12/15 10:51
+Comunication success...   - 23/12/15 10:51
+Response Code : 200 - 23/12/15 10:51
+Comunication success...   - 23/12/15 10:51
+El incidente IM00483031 no existe en Doit - 23/12/15 10:51
+El incidente SD02000357 no existe en Doit - 23/12/15 10:51
+El incidente IM02001415 no existe en Doit - 23/12/15 10:51
+Quedan 5 tickets luego del filtro... - 23/12/15 10:51
+verifico el tkt IM00900231 en el archivo logs/commented.log - 23/12/15 10:51
+No se volvera a comentar el tkt 7425 - 23/12/15 10:51
+verifico el tkt IM00900152 en el archivo logs/commented.log - 23/12/15 10:51
+No se volvera a comentar el tkt 7427 - 23/12/15 10:51
+verifico el tkt IM00900583 en el archivo logs/commented.log - 23/12/15 10:51
+No se volvera a comentar el tkt 7428 - 23/12/15 10:51
+verifico el tkt IM00900379 en el archivo logs/commented.log - 23/12/15 10:51
+No se volvera a comentar el tkt 7428 - 23/12/15 10:51
+verifico el tkt IM00900194 en el archivo logs/commented.log - 23/12/15 10:51
+No se volvera a comentar el tkt 7430 - 23/12/15 10:51
+Waiting... - 23/12/15 10:51
+Timer created! - 23/12/15 10:54
+schedule 12.0hs - 23/12/15 10:54
+TASKER INIT! - 23/12/15 10:54
+init_server - 23/12/15 10:54
+Start ok 23/12/15 10:54 - 23/12/15 10:54
+Login... - 23/12/15 10:54
+Response Code : 200 - 23/12/15 10:54
+Comunication success...   - 23/12/15 10:54
+Connection Itracker... - 23/12/15 10:54
+Response Code : 200 - 23/12/15 10:54
+Comunication success...   - 23/12/15 10:54
+Existen 8 tickets... - 23/12/15 10:54
+verifico el tkt IM00483031 en el archivo logs/closed.log - 23/12/15 10:54
+verifico el tkt IM00900231 en el archivo logs/closed.log - 23/12/15 10:54
+verifico el tkt SD02000357 en el archivo logs/closed.log - 23/12/15 10:54
+verifico el tkt IM00900152 en el archivo logs/closed.log - 23/12/15 10:54
+verifico el tkt IM00900583 en el archivo logs/closed.log - 23/12/15 10:54
+verifico el tkt IM00900379 en el archivo logs/closed.log - 23/12/15 10:54
+verifico el tkt IM00900194 en el archivo logs/closed.log - 23/12/15 10:54
+verifico el tkt IM02001415 en el archivo logs/closed.log - 23/12/15 10:54
+Connection Doit... - 23/12/15 10:54
+Response Code : 200 - 23/12/15 10:54
+Comunication success...   - 23/12/15 10:54
+Response Code : 200 - 23/12/15 10:54
+Comunication success...   - 23/12/15 10:54
+Response Code : 200 - 23/12/15 10:54
+Comunication success...   - 23/12/15 10:54
+Response Code : 200 - 23/12/15 10:54
+Comunication success...   - 23/12/15 10:54
+Response Code : 200 - 23/12/15 10:54
+Comunication success...   - 23/12/15 10:54
+Response Code : 200 - 23/12/15 10:54
+Comunication success...   - 23/12/15 10:54
+Response Code : 200 - 23/12/15 10:54
+Comunication success...   - 23/12/15 10:54
+Response Code : 200 - 23/12/15 10:54
+Comunication success...   - 23/12/15 10:54
+El incidente IM00483031 no existe en Doit - 23/12/15 10:54
+El incidente SD02000357 no existe en Doit - 23/12/15 10:54
+El incidente IM02001415 no existe en Doit - 23/12/15 10:54
+Quedan 5 tickets luego del filtro... - 23/12/15 10:54
+verifico el tkt IM00900231 en el archivo logs/commented.log - 23/12/15 10:54
+No se volvera a comentar el tkt 7425 - 23/12/15 10:54
+verifico el tkt IM00900152 en el archivo logs/commented.log - 23/12/15 10:54
+No se volvera a comentar el tkt 7427 - 23/12/15 10:54
+verifico el tkt IM00900583 en el archivo logs/commented.log - 23/12/15 10:54
+No se volvera a comentar el tkt 7428 - 23/12/15 10:54
+verifico el tkt IM00900379 en el archivo logs/commented.log - 23/12/15 10:54
+No se volvera a comentar el tkt 7428 - 23/12/15 10:54
+verifico el tkt IM00900194 en el archivo logs/commented.log - 23/12/15 10:54
+No se volvera a comentar el tkt 7430 - 23/12/15 10:54
+Waiting... - 23/12/15 10:54
+Timer created! - 23/12/15 10:57
+schedule 12.0hs - 23/12/15 10:57
+TASKER INIT! - 23/12/15 10:57
+Start ok 23/12/15 10:57 - 23/12/15 10:57
+init_server - 23/12/15 10:57
+Login... - 23/12/15 10:57
+Response Code : 200 - 23/12/15 10:57
+Comunication success...   - 23/12/15 10:57
+Connection Itracker... - 23/12/15 10:57
+Response Code : 200 - 23/12/15 10:57
+Comunication success...   - 23/12/15 10:57
+Existen 8 tickets... - 23/12/15 10:57
+verifico el tkt IM00483031 en el archivo logs/closed.log - 23/12/15 10:57
+verifico el tkt IM00900231 en el archivo logs/closed.log - 23/12/15 10:57
+verifico el tkt SD02000357 en el archivo logs/closed.log - 23/12/15 10:57
+verifico el tkt IM00900152 en el archivo logs/closed.log - 23/12/15 10:57
+verifico el tkt IM00900583 en el archivo logs/closed.log - 23/12/15 10:57
+verifico el tkt IM00900379 en el archivo logs/closed.log - 23/12/15 10:57
+verifico el tkt IM00900194 en el archivo logs/closed.log - 23/12/15 10:57
+verifico el tkt IM02001415 en el archivo logs/closed.log - 23/12/15 10:57
+Connection Doit... - 23/12/15 10:57
+Response Code : 200 - 23/12/15 10:57
+Comunication success...   - 23/12/15 10:57
+Response Code : 200 - 23/12/15 10:57
+Comunication success...   - 23/12/15 10:57
+Response Code : 200 - 23/12/15 10:57
+Comunication success...   - 23/12/15 10:57
+Response Code : 200 - 23/12/15 10:57
+Comunication success...   - 23/12/15 10:57
+Response Code : 200 - 23/12/15 10:57
+Comunication success...   - 23/12/15 10:57
+Response Code : 200 - 23/12/15 10:57
+Comunication success...   - 23/12/15 10:57
+Response Code : 200 - 23/12/15 10:57
+Comunication success...   - 23/12/15 10:57
+Response Code : 200 - 23/12/15 10:57
+Comunication success...   - 23/12/15 10:57
+El incidente IM00483031 no existe en Doit - 23/12/15 10:57
+El incidente SD02000357 no existe en Doit - 23/12/15 10:57
+El incidente IM02001415 no existe en Doit - 23/12/15 10:57
+Quedan 5 tickets luego del filtro... - 23/12/15 10:57
+verifico el tkt IM00900231 en el archivo logs/commented.log - 23/12/15 10:57
+No se volvera a comentar el tkt 7425 - 23/12/15 10:57
+verifico el tkt IM00900152 en el archivo logs/commented.log - 23/12/15 10:57
+No se volvera a comentar el tkt 7427 - 23/12/15 10:57
+verifico el tkt IM00900583 en el archivo logs/commented.log - 23/12/15 10:57
+No se volvera a comentar el tkt 7428 - 23/12/15 10:57
+verifico el tkt IM00900379 en el archivo logs/commented.log - 23/12/15 10:57
+No se volvera a comentar el tkt 7428 - 23/12/15 10:57
+verifico el tkt IM00900194 en el archivo logs/commented.log - 23/12/15 10:57
+No se volvera a comentar el tkt 7430 - 23/12/15 10:57
+Waiting... - 23/12/15 10:57
+Timer created! - 23/12/15 11:07
+schedule 12.0hs - 23/12/15 11:07
+TASKER INIT! - 23/12/15 11:07
+init_server - 23/12/15 11:07
+Start ok 23/12/15 11:07 - 23/12/15 11:07
+Login... - 23/12/15 11:07
+Response Code : 200 - 23/12/15 11:07
+Comunication success...   - 23/12/15 11:07
+Connection Itracker... - 23/12/15 11:07
+Response Code : 200 - 23/12/15 11:08
+Comunication success...   - 23/12/15 11:08
+Existen 8 tickets... - 23/12/15 11:08
+verifico el tkt IM00483031 en el archivo logs/closed.log - 23/12/15 11:08
+verifico el tkt IM00900231 en el archivo logs/closed.log - 23/12/15 11:08
+verifico el tkt SD02000357 en el archivo logs/closed.log - 23/12/15 11:08
+verifico el tkt IM00900152 en el archivo logs/closed.log - 23/12/15 11:08
+verifico el tkt IM00900583 en el archivo logs/closed.log - 23/12/15 11:08
+verifico el tkt IM00900379 en el archivo logs/closed.log - 23/12/15 11:08
+verifico el tkt IM00900194 en el archivo logs/closed.log - 23/12/15 11:08
+verifico el tkt IM02001415 en el archivo logs/closed.log - 23/12/15 11:08
+Connection Doit... - 23/12/15 11:08
+Response Code : 200 - 23/12/15 11:08
+Comunication success...   - 23/12/15 11:08
+Response Code : 200 - 23/12/15 11:08
+Comunication success...   - 23/12/15 11:08
+Response Code : 200 - 23/12/15 11:08
+Comunication success...   - 23/12/15 11:08
+Response Code : 200 - 23/12/15 11:08
+Comunication success...   - 23/12/15 11:08
+Response Code : 200 - 23/12/15 11:08
+Comunication success...   - 23/12/15 11:08
+Response Code : 200 - 23/12/15 11:08
+Comunication success...   - 23/12/15 11:08
+Response Code : 200 - 23/12/15 11:08
+Comunication success...   - 23/12/15 11:08
+Response Code : 200 - 23/12/15 11:08
+Comunication success...   - 23/12/15 11:08
+El incidente IM00483031 no existe en Doit - 23/12/15 11:08
+El incidente SD02000357 no existe en Doit - 23/12/15 11:08
+El incidente IM02001415 no existe en Doit - 23/12/15 11:08
+Quedan 5 tickets luego del filtro... - 23/12/15 11:08
+verifico el tkt IM00900231 en el archivo logs/commented.log - 23/12/15 11:08
+No se volvera a comentar el tkt 7425 - 23/12/15 11:08
+verifico el tkt IM00900152 en el archivo logs/commented.log - 23/12/15 11:08
+No se volvera a comentar el tkt 7427 - 23/12/15 11:08
+verifico el tkt IM00900583 en el archivo logs/commented.log - 23/12/15 11:08
+No se volvera a comentar el tkt 7428 - 23/12/15 11:08
+verifico el tkt IM00900379 en el archivo logs/commented.log - 23/12/15 11:08
+No se volvera a comentar el tkt 7428 - 23/12/15 11:08
+verifico el tkt IM00900194 en el archivo logs/commented.log - 23/12/15 11:08
+No se volvera a comentar el tkt 7430 - 23/12/15 11:08
+Waiting... - 23/12/15 11:08
+Timer created! - 23/12/15 11:11
+schedule 12.0hs - 23/12/15 11:11
+TASKER INIT! - 23/12/15 11:11
+init_server - 23/12/15 11:11
+Start ok 23/12/15 11:11 - 23/12/15 11:11
+Login... - 23/12/15 11:11
+Response Code : 200 - 23/12/15 11:11
+Comunication success...   - 23/12/15 11:11
+Connection Itracker... - 23/12/15 11:11
+Response Code : 200 - 23/12/15 11:11
+Comunication success...   - 23/12/15 11:11
+Existen 8 tickets... - 23/12/15 11:11
+verifico el tkt IM00483031 en el archivo logs/closed.log - 23/12/15 11:11
+verifico el tkt IM00900231 en el archivo logs/closed.log - 23/12/15 11:11
+verifico el tkt SD02000357 en el archivo logs/closed.log - 23/12/15 11:11
+verifico el tkt IM00900152 en el archivo logs/closed.log - 23/12/15 11:11
+verifico el tkt IM00900583 en el archivo logs/closed.log - 23/12/15 11:11
+verifico el tkt IM00900379 en el archivo logs/closed.log - 23/12/15 11:11
+verifico el tkt IM00900194 en el archivo logs/closed.log - 23/12/15 11:11
+verifico el tkt IM02001415 en el archivo logs/closed.log - 23/12/15 11:11
+Connection Doit... - 23/12/15 11:11
+Response Code : 200 - 23/12/15 11:11
+Comunication success...   - 23/12/15 11:11
+Response Code : 200 - 23/12/15 11:11
+Comunication success...   - 23/12/15 11:11
+Response Code : 200 - 23/12/15 11:11
+Comunication success...   - 23/12/15 11:11
+Response Code : 200 - 23/12/15 11:11
+Comunication success...   - 23/12/15 11:11
+Response Code : 200 - 23/12/15 11:11
+Comunication success...   - 23/12/15 11:11
+Response Code : 200 - 23/12/15 11:11
+Comunication success...   - 23/12/15 11:11
+Response Code : 200 - 23/12/15 11:11
+Comunication success...   - 23/12/15 11:11
+Response Code : 200 - 23/12/15 11:11
+Comunication success...   - 23/12/15 11:11
+El incidente IM00483031 no existe en Doit - 23/12/15 11:11
+El incidente SD02000357 no existe en Doit - 23/12/15 11:11
+El incidente IM02001415 no existe en Doit - 23/12/15 11:11
+Quedan 5 tickets luego del filtro... - 23/12/15 11:11
+verifico el tkt IM00900231 en el archivo logs/commented.log - 23/12/15 11:11
+No se volvera a comentar el tkt 7425 - 23/12/15 11:11
+verifico el tkt IM00900152 en el archivo logs/commented.log - 23/12/15 11:11
+No se volvera a comentar el tkt 7427 - 23/12/15 11:11
+verifico el tkt IM00900583 en el archivo logs/commented.log - 23/12/15 11:11
+No se volvera a comentar el tkt 7428 - 23/12/15 11:11
+verifico el tkt IM00900379 en el archivo logs/commented.log - 23/12/15 11:11
+No se volvera a comentar el tkt 7428 - 23/12/15 11:11
+verifico el tkt IM00900194 en el archivo logs/commented.log - 23/12/15 11:11
+No se volvera a comentar el tkt 7430 - 23/12/15 11:11
+Waiting... - 23/12/15 11:11
+Timer created! - 23/12/15 11:13
+schedule 12.0hs - 23/12/15 11:13
+TASKER INIT! - 23/12/15 11:13
+init_server - 23/12/15 11:13
+Start ok 23/12/15 11:13 - 23/12/15 11:13
+Login... - 23/12/15 11:13
+Response Code : 200 - 23/12/15 11:13
+Comunication success...   - 23/12/15 11:13
+Connection Itracker... - 23/12/15 11:13
+Response Code : 200 - 23/12/15 11:13
+Comunication success...   - 23/12/15 11:13
+Existen 8 tickets... - 23/12/15 11:13
+verifico el tkt IM00483031 en el archivo logs/closed.log - 23/12/15 11:13
+verifico el tkt IM00900231 en el archivo logs/closed.log - 23/12/15 11:13
+verifico el tkt SD02000357 en el archivo logs/closed.log - 23/12/15 11:13
+verifico el tkt IM00900152 en el archivo logs/closed.log - 23/12/15 11:13
+verifico el tkt IM00900583 en el archivo logs/closed.log - 23/12/15 11:13
+verifico el tkt IM00900379 en el archivo logs/closed.log - 23/12/15 11:13
+verifico el tkt IM00900194 en el archivo logs/closed.log - 23/12/15 11:13
+verifico el tkt IM02001415 en el archivo logs/closed.log - 23/12/15 11:13
+Connection Doit... - 23/12/15 11:13
+Response Code : 200 - 23/12/15 11:13
+Comunication success...   - 23/12/15 11:13
+Response Code : 200 - 23/12/15 11:13
+Comunication success...   - 23/12/15 11:13
+Response Code : 200 - 23/12/15 11:13
+Comunication success...   - 23/12/15 11:13
+Response Code : 200 - 23/12/15 11:13
+Comunication success...   - 23/12/15 11:13
+Response Code : 200 - 23/12/15 11:13
+Comunication success...   - 23/12/15 11:13
+Response Code : 200 - 23/12/15 11:13
+Comunication success...   - 23/12/15 11:13
+Response Code : 200 - 23/12/15 11:13
+Comunication success...   - 23/12/15 11:13
+Response Code : 200 - 23/12/15 11:13
+Comunication success...   - 23/12/15 11:13
+El incidente IM00483031 no existe en Doit - 23/12/15 11:13
+El incidente SD02000357 no existe en Doit - 23/12/15 11:13
+El incidente IM02001415 no existe en Doit - 23/12/15 11:13
+Quedan 5 tickets luego del filtro... - 23/12/15 11:13
+verifico el tkt IM00900231 en el archivo logs/commented.log - 23/12/15 11:13
+No se volvera a comentar el tkt 7425 - 23/12/15 11:13
+verifico el tkt IM00900152 en el archivo logs/commented.log - 23/12/15 11:13
+No se volvera a comentar el tkt 7427 - 23/12/15 11:13
+verifico el tkt IM00900583 en el archivo logs/commented.log - 23/12/15 11:13
+No se volvera a comentar el tkt 7428 - 23/12/15 11:13
+verifico el tkt IM00900379 en el archivo logs/commented.log - 23/12/15 11:13
+No se volvera a comentar el tkt 7428 - 23/12/15 11:13
+verifico el tkt IM00900194 en el archivo logs/commented.log - 23/12/15 11:13
+No se volvera a comentar el tkt 7430 - 23/12/15 11:13
+Waiting... - 23/12/15 11:13
+Timer created! - 23/12/15 11:13
+schedule 12.0hs - 23/12/15 11:13
+TASKER INIT! - 23/12/15 11:13
+init_server - 23/12/15 11:13
+Start ok 23/12/15 11:13 - 23/12/15 11:13
+Login... - 23/12/15 11:13
+Response Code : 200 - 23/12/15 11:13
+Comunication success...   - 23/12/15 11:13
+Connection Itracker... - 23/12/15 11:13
+Response Code : 200 - 23/12/15 11:13
+Comunication success...   - 23/12/15 11:13
+Existen 8 tickets... - 23/12/15 11:13
+verifico el tkt IM00483031 en el archivo logs/closed.log - 23/12/15 11:13
+verifico el tkt IM00900231 en el archivo logs/closed.log - 23/12/15 11:13
+verifico el tkt SD02000357 en el archivo logs/closed.log - 23/12/15 11:13
+verifico el tkt IM00900152 en el archivo logs/closed.log - 23/12/15 11:13
+verifico el tkt IM00900583 en el archivo logs/closed.log - 23/12/15 11:13
+verifico el tkt IM00900379 en el archivo logs/closed.log - 23/12/15 11:13
+verifico el tkt IM00900194 en el archivo logs/closed.log - 23/12/15 11:13
+verifico el tkt IM02001415 en el archivo logs/closed.log - 23/12/15 11:13
+Connection Doit... - 23/12/15 11:13
+Response Code : 200 - 23/12/15 11:13
+Comunication success...   - 23/12/15 11:13
+Response Code : 200 - 23/12/15 11:13
+Comunication success...   - 23/12/15 11:13
+Response Code : 200 - 23/12/15 11:13
+Comunication success...   - 23/12/15 11:13
+Response Code : 200 - 23/12/15 11:13
+Comunication success...   - 23/12/15 11:13
+Response Code : 200 - 23/12/15 11:13
+Comunication success...   - 23/12/15 11:13
+Response Code : 200 - 23/12/15 11:13
+Comunication success...   - 23/12/15 11:13
+Response Code : 200 - 23/12/15 11:13
+Comunication success...   - 23/12/15 11:13
+Response Code : 200 - 23/12/15 11:13
+Comunication success...   - 23/12/15 11:13
+El incidente IM00483031 no existe en Doit - 23/12/15 11:13
+El incidente SD02000357 no existe en Doit - 23/12/15 11:13
+El incidente IM02001415 no existe en Doit - 23/12/15 11:13
+Quedan 5 tickets luego del filtro... - 23/12/15 11:13
+verifico el tkt IM00900231 en el archivo logs/commented.log - 23/12/15 11:13
+No se volvera a comentar el tkt 7425 - 23/12/15 11:13
+verifico el tkt IM00900152 en el archivo logs/commented.log - 23/12/15 11:13
+No se volvera a comentar el tkt 7427 - 23/12/15 11:13
+verifico el tkt IM00900583 en el archivo logs/commented.log - 23/12/15 11:13
+No se volvera a comentar el tkt 7428 - 23/12/15 11:13
+verifico el tkt IM00900379 en el archivo logs/commented.log - 23/12/15 11:13
+No se volvera a comentar el tkt 7428 - 23/12/15 11:13
+verifico el tkt IM00900194 en el archivo logs/commented.log - 23/12/15 11:13
+No se volvera a comentar el tkt 7430 - 23/12/15 11:13
+Waiting... - 23/12/15 11:13
+Timer created! - 23/12/15 11:16
+schedule 12.0hs - 23/12/15 11:16
+TASKER INIT! - 23/12/15 11:16
+init_server - 23/12/15 11:16
+Start ok 23/12/15 11:16 - 23/12/15 11:16
+Login... - 23/12/15 11:16
+Response Code : 200 - 23/12/15 11:16
+Comunication success...   - 23/12/15 11:16
+Connection Itracker... - 23/12/15 11:16
+Response Code : 200 - 23/12/15 11:16
+Comunication success...   - 23/12/15 11:16
+Existen 8 tickets... - 23/12/15 11:16
+verifico el tkt IM00483031 en el archivo logs/closed.log - 23/12/15 11:16
+verifico el tkt IM00900231 en el archivo logs/closed.log - 23/12/15 11:16
+verifico el tkt SD02000357 en el archivo logs/closed.log - 23/12/15 11:16
+verifico el tkt IM00900152 en el archivo logs/closed.log - 23/12/15 11:16
+verifico el tkt IM00900583 en el archivo logs/closed.log - 23/12/15 11:16
+verifico el tkt IM00900379 en el archivo logs/closed.log - 23/12/15 11:16
+verifico el tkt IM00900194 en el archivo logs/closed.log - 23/12/15 11:16
+verifico el tkt IM02001415 en el archivo logs/closed.log - 23/12/15 11:16
+Connection Doit... - 23/12/15 11:16
+Response Code : 200 - 23/12/15 11:16
+Comunication success...   - 23/12/15 11:16
+Response Code : 200 - 23/12/15 11:16
+Comunication success...   - 23/12/15 11:16
+Response Code : 200 - 23/12/15 11:16
+Comunication success...   - 23/12/15 11:16
+Response Code : 200 - 23/12/15 11:16
+Comunication success...   - 23/12/15 11:16
+Response Code : 200 - 23/12/15 11:16
+Comunication success...   - 23/12/15 11:16
+Response Code : 200 - 23/12/15 11:16
+Comunication success...   - 23/12/15 11:16
+Response Code : 200 - 23/12/15 11:16
+Comunication success...   - 23/12/15 11:16
+Response Code : 200 - 23/12/15 11:16
+Comunication success...   - 23/12/15 11:16
+El incidente IM00483031 no existe en Doit - 23/12/15 11:16
+El incidente SD02000357 no existe en Doit - 23/12/15 11:16
+El incidente IM02001415 no existe en Doit - 23/12/15 11:16
+Quedan 5 tickets luego del filtro... - 23/12/15 11:16
+verifico el tkt IM00900231 en el archivo logs/commented.log - 23/12/15 11:16
+No se volvera a comentar el tkt 7425 - 23/12/15 11:16
+verifico el tkt IM00900152 en el archivo logs/commented.log - 23/12/15 11:16
+No se volvera a comentar el tkt 7427 - 23/12/15 11:16
+verifico el tkt IM00900583 en el archivo logs/commented.log - 23/12/15 11:16
+No se volvera a comentar el tkt 7428 - 23/12/15 11:16
+verifico el tkt IM00900379 en el archivo logs/commented.log - 23/12/15 11:16
+No se volvera a comentar el tkt 7428 - 23/12/15 11:16
+verifico el tkt IM00900194 en el archivo logs/commented.log - 23/12/15 11:16
+No se volvera a comentar el tkt 7430 - 23/12/15 11:16
+Waiting... - 23/12/15 11:16
