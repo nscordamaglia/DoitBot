@@ -104,6 +104,7 @@ public class Doitbot {
                                                     
                                                     System.out.println("No se volvera a comentar el tkt " + tkt.getId());
                                                     logServer.file("No se volvera a comentar el tkt " + tkt.getId(), "logs/logserver.log");
+                                                    //Guardo en el csv los IM que hayan cambiado de grupo
                                                     logServer.file(tkt.getIncidentID()+";"+tkt.getPrimaryAssignmentGroup()+";"+tkt.getStatus(), "logs/ReporteIM.csv");
                                                     itertkt.remove();
 

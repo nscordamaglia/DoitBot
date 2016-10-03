@@ -109,12 +109,17 @@ class Save {
                                        
                                 }else if (path == "logs/ReporteIM.csv"){
                                 
-                                        //si no existe lo creo
-                                        if(!file.exists()){
+                                        //si existe lo borro, ya que  debe ser unico por cada tarea realizada
+                                        if(file.exists()){
                                             
-                                                file.createNewFile();
-                                                this.file(headerIM, path); 
+                                            file.renameTo(oldFile);
+                                            file.delete();
+                                            file.createNewFile();
                                                 
+                                                
+                                        }else{
+                                       
+                                            file.createNewFile();
                                         }
                                        
                                 }else{

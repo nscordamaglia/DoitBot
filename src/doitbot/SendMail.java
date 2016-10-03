@@ -3,10 +3,8 @@
  * and open the template in the editor.
  */
 package doitbot;
-import java.io.IOException;
+
 import java.util.Properties;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.activation.DataHandler;
 import javax.activation.DataSource;
 import javax.activation.FileDataSource;
@@ -23,13 +21,13 @@ import javax.mail.internet.MimeMultipart;
 public class SendMail {
     
     // Recipient's email ID needs to be mentioned.
-      String to = "erpaez@ta.telecom.com.ar";
+      String to = ConfigManager.getAppSetting("mailto");
 
       // Sender's email ID needs to be mentioned
-      String from = "ReporteIM@ta.telecom.com.ar";
+      String from = ConfigManager.getAppSetting("mailfrom");
 
       // Assuming you are sending email from localhost
-      String host = "smtpappl02";
+      String host = ConfigManager.getAppSetting("smtp");
 
     public void Ready (){
     

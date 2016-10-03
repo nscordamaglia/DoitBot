@@ -51,7 +51,7 @@ class DoitTimer {
             timer.cancel();//se mata cualquier objeto timer anterior
 
             timer= new Timer();// se crea uno nuevo para ser programado
-            timer.schedule (new task(), now, delay);//se programa la tarea segun lo necesario
+            timer.schedule (new task(), since, delay);//se programa la tarea segun lo necesario
            
             
             System.out.println("TASKER INIT!");

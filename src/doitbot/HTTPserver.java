@@ -9,8 +9,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.InetSocketAddress;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 
 /**
@@ -65,10 +68,18 @@ class HTTPserver {
          */
         public MyHandler(HTTPserver s){
            
-           server =s;
-           String time = ConfigManager.getAppSetting("Time");
-           //inicio la programacion de la tarea
-           timer.tasker(this.server,Float.valueOf(time),new Date()); 
+           try {
+                server =s;
+                String time = ConfigManager.getAppSetting("Time");
+                String dateInString =  ConfigManager.getAppSetting("Date");
+                SimpleDateFormat formatter = new SimpleDateFormat("MM-dd-yyyy HH:mm a");
+                System.out.println(dateInString);
+                Date date = formatter.parse(dateInString);
+                //inicio la programacion de la tarea
+                timer.tasker(this.server,Float.valueOf(time),date); 
+            } catch (ParseException ex) {
+                Logger.getLogger(HTTPserver.class.getName()).log(Level.SEVERE, null, ex);
+            }
             
         }
         /**

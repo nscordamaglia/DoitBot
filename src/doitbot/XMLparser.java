@@ -140,37 +140,55 @@ class XMLparser {
              NodeList nl1 = (NodeList) exp1.evaluate(document, XPathConstants.NODESET);
              
              //recorro los nodos tkt y seteo los atributos del tktobj
-             for (int index = 0; index < nl1.getLength(); index = index + 2) {
+             int index = 0;
+             while ( index < nl1.getLength()) {
                                 tktattr.clear();
-                                Node type = nl1.item(index); //tipo de tkt simplit                                
-                                Node number = nl1.item(index+1);//nro de tkt simplit                                
-                                Node node21 = type.getParentNode();
+                                Node type = nl1.item(index); //tipo de tkt simplit  
+                                System.out.println(" simplit: " + type.getTextContent());
+                                
+                                Node node21 = type.getParentNode(); 
                                 Node node22 = node21.getParentNode();
                                 Node node23 = node22.getParentNode();
-                                Node node24 = node23.getParentNode();
-                                Node node25 = node24.getParentNode();
-                                String tktParent = node25.getChildNodes().item(0).getTextContent();//id tkt itracker                                
-                                String FA = node25.getChildNodes().item(1).getTextContent();//fecha de creacion tkt itracker                                
-                                String master = node25.getChildNodes().item(3).getTextContent();//id master itracker                                
-                                System.out.println(" simplit: " + type.getTextContent() + number.getTextContent() + " tkt: " + tktParent + " fecha de creacion: " + FA + " master: " + master);
-                                //agrego los datos al array                                
-                                tktattr.add(type.getTextContent());
-                                tktattr.add(number.getTextContent());
-                                tktattr.add(tktParent);
-                                tktattr.add(FA);
-                                tktattr.add(master);
-                                if(master != ""){
-                                    //guardo en archivo master el tkt
-                                    System.out.println("guardo en master");
-                                    Save masterLog = new Save();
-                                    masterLog.file(tktParent, "logs/master.log");
+                                String alias = node23.getChildNodes().item(0).getChildNodes().item(1).getTextContent();
+                                System.out.println(node23.getChildNodes().item(0).getChildNodes().item(1).getNodeName().toString() + ": " + alias);
+                                if ("TKT EXTERNO".equalsIgnoreCase(alias)){
+                                
+                                    Node number = nl1.item(index+1);//nro de tkt simplit  
+                                    System.out.println(" simplit: " + number.getTextContent());
+
+                                    Node node24 = node23.getParentNode();
+                                    Node node25 = node24.getParentNode();
+                                    String tktParent = node25.getChildNodes().item(0).getTextContent();//id tkt itracker  
+                                    System.out.println(" tkt: " + tktParent );
+                                    String FA = node25.getChildNodes().item(1).getTextContent();//fecha de creacion tkt itracker       
+                                    System.out.println(" FA: " + FA );
+                                    String master = node25.getChildNodes().item(3).getTextContent();//id master itracker     
+                                    System.out.println(" master: " + master );
+                                    //System.out.println(" simplit: " + type.getTextContent() + number.getTextContent() + " tkt: " + tktParent + " fecha de creacion: " + FA + " master: " + master);
+                                    //agrego los datos al array                                
+                                    tktattr.add(type.getTextContent());
+                                    tktattr.add(number.getTextContent());
+                                    tktattr.add(tktParent);
+                                    tktattr.add(FA);
+                                    tktattr.add(master);
+                                    if(master != ""){
+                                        //guardo en archivo master el tkt
+                                        System.out.println("guardo en master");
+                                        Save masterLog = new Save();
+                                        masterLog.file(tktParent, "logs/master.log");
+                                    }
+                                    //creo el objeto tkt
+                                    TKTobj tktobj = new TKTobj(tktattr);
+                                    //lo inserto en el array de tkt´s
+                                    tktarray.add(tktobj);
+                                
+                                }else{
+                                
+                                    index++;
                                 }
-                                //creo el objeto tkt
-                                TKTobj tktobj = new TKTobj(tktattr);
-                                //lo inserto en el array de tkt´s
-                                tktarray.add(tktobj);
+                                
                                   
-                               
+                  index = index + 2;             
                 
              }
         } catch (ParserConfigurationException ex) {
@@ -181,7 +199,10 @@ class XMLparser {
             Logger.getLogger(XMLparser.class.getName()).log(Level.SEVERE, null, ex);
         } catch (XPathExpressionException ex) {
             Logger.getLogger(XMLparser.class.getName()).log(Level.SEVERE, null, ex);
-        } 
+        } catch (NullPointerException ex){
+            Logger.getLogger(XMLparser.class.getName()).log(Level.SEVERE, null, ex);
+            System.out.println("catch nulo");
+        }
         
         return tktarray;
         

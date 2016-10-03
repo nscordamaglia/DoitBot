@@ -3,7 +3,7 @@
   <header>
     <front>ROBOTSERVER</front>
     <usr>SIMPLITBOT</usr>
-    <instance>TELECOMCCT</instance>
+    <instance>AGENTES</instance>
     <hash>{hash}</hash>
    <ip>::1</ip>
   </header>
