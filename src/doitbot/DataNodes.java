@@ -24,10 +24,19 @@ class DataNodes {
     DataNodes(String method, TKTobj tkt) {
         
         this.method = method;
+        System.out.println("methodo usado: " + method);
         //System.out.println("estado: " + tkt.getStatus());
         if ("Closed".equals(tkt.getStatus())){
             //evaluo si es posible ejecutar la accion de cerrar, caso contrario solo comento
-            if(Verify.Slave(tkt.getId()) == false){action="CERRAR_EXT";}else{action="STATUS_TKT_EXT";}
+            if(Verify.Slave(tkt.getId()) == false ){ 
+                if (!method.equalsIgnoreCase("ACTIONSTATUS")){
+                    action="CERRAR_EXT";
+                }else{
+                    action="CERRAR_EXT_ADV";
+                }
+            }else{
+                action="STATUS_TKT_EXT";
+            }
             this.txtform = "[{\"id\":\"actionform_tipo\",\"value\":\"" + tkt.getIncidentID().substring(0, 2) + "\"},{\"id\":\"actionform_numero\",\"value\":\"" 
                             + tkt.getIncidentID().substring(2, tkt.getIncidentID().length()) + "\"},{\"id\":\"actionform_grupo\",\"value\":\"" + tkt.getPrimaryAssignmentGroup() + "\"},{\"id\":\"actionform_status\",\"value\":\"" 
                             + tkt.getStatus() + "\"},{\"id\":\"actionform_fecha\",\"value\":\"" + tkt.getClosedTime() + "\"},{\"id\":\"actionform_comment\",\"value\":\"" 
@@ -86,10 +95,15 @@ class DataNodes {
      */
     DataNodes(String method) {
         
-        this.method = method;
-        this.editHeader = ConfigManager.getAppSetting("editHeader"+method);
-        this.createNodes = ConfigManager.getAppSetting("createNodes"+method);
-        this.editNodesData = ConfigManager.getAppSetting("editNodesData"+method);
+        
+                
+                this.method = method;
+                this.editHeader = ConfigManager.getAppSetting("editHeader"+method);
+                this.createNodes = ConfigManager.getAppSetting("createNodes"+method);
+                this.editNodesData = ConfigManager.getAppSetting("editNodesData"+method);
+        
+        
+        
                
         
     }

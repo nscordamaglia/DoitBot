@@ -203,8 +203,8 @@ class TKTobj {
     private String caracterControl(String data){
         
         String replace = null;
-        String[] caracter = {";","/","\\\\/","'","&","<",">","\""};
-        for (int i=0;i<8;i++){
+        String[] caracter = {";","/","\\\\/","'","&","<",">","\"",":"};
+        for (int i=0;i<9;i++){
             if (";".equals(caracter[i])){
                 
                  replace = ".";

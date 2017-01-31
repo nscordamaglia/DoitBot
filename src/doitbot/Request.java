@@ -279,7 +279,7 @@ class Request {
                     getResponse = response.toString();
                     }else{
                     
-                        System.out.println("Comunication fail... ");
+                        System.out.println("Comunication fail... " + responseCode );
                         logStart.file("Comunication fail...  ", "logs/logserver.log");
                     
                     }

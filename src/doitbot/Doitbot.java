@@ -29,7 +29,7 @@ public class Doitbot {
      * Metodo que se inicia con el scheduling para comenzar las tareas de busqueda y actualizacion de incidentes doit
      */
 
-    static void start() {
+    static void start(String type) {
         
         
         
@@ -55,6 +55,12 @@ public class Doitbot {
        }else{
             /** Generacion del listado de tkt itracker **/
             GetList getlist = new GetList(itracker);
+            //antes de ejecutar la lista debo saber que tipo de lista estoy buscando
+            if(type.equalsIgnoreCase("noclose")){
+                
+                    //si es para no cerrar le cambio el metodo de entrada en el datanode
+                    getlist.setDatanodes(new DataNodes("NOCLOSE"));
+            }
             getlist.Ejecute();
             getlist.GetResponse();
             if("error".equals(getlist.getStatus().subSequence(0, 5))){
@@ -129,6 +135,12 @@ public class Doitbot {
                         /** Luego recorro el array de tktobj y consulto los estados para ejecutar las acciones **/
                         for (int i = 0; i<itracker.getArrayTKT().size();i++){
                             SendAction sendaction = new SendAction(itracker, i);
+                            //antes de ejecutar la lista debo saber que tipo de lista estoy buscando
+                            if(type.equalsIgnoreCase("noclose")){
+
+                                    //si es para no cerrar le cambio el metodo de entrada en el datanode
+                                    sendaction.setDatanodes(new DataNodes("ACTIONSTATUS",itracker.getArrayTKT().get(i)));
+                            }
                             sendaction.Ejecute();
                             sendaction.GetResponse();
                         }  
@@ -137,7 +149,7 @@ public class Doitbot {
                         System.out.println(doitlist.getStatus());
                         logServer.file(doitlist.getStatus(), "logs/logserver.log");
                         
-                        }   
+                        } 
             }
        }
         

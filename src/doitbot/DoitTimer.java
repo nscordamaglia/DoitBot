@@ -79,7 +79,8 @@ class DoitTimer {
               
                 public void run() {
                    
-                        Doitbot.start();// ejecucion del proceso ppal
+                        Doitbot.start("normal");// ejecucion del proceso ppal normal
+                        Doitbot.start("noclose");// ejecucion del proceso ppal sin cierre
                         System.out.println("Waiting...");
                         logStart.file("Waiting...", "logs/logserver.log");
 

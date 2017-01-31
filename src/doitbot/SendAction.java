@@ -100,7 +100,7 @@ class SendAction extends Action{
                 Save logServer = new Save();
                     String path = null;
                     String tktid = null;
-                if("CERRAR_EXT".equals(datanodes.action)){
+                if("CERRAR_EXT".equals(datanodes.action) || "CERRAR_EXT_ADV".equals(datanodes.action)){
                   
                      path = "logs/closed.log";
                      tktid = tkt.getIncidentID();//guardo los cerrados
