@@ -144,15 +144,20 @@ class XMLparser {
              while ( index < nl1.getLength()) {
                                 tktattr.clear();
                                 Node type = nl1.item(index); //tipo de tkt simplit  
-                                System.out.println(" simplit: " + type.getTextContent());
+                                //System.out.println(" simplit: " + type.getTextContent());
                                 
                                 Node node21 = type.getParentNode(); 
                                 Node node22 = node21.getParentNode();
                                 Node node23 = node22.getParentNode();
                                 String alias = node23.getChildNodes().item(0).getChildNodes().item(1).getTextContent();
-                                System.out.println(node23.getChildNodes().item(0).getChildNodes().item(1).getNodeName().toString() + ": " + alias);
-                                if ("TKT EXTERNO".equalsIgnoreCase(alias)){
-                                
+                                //System.out.println(node23.getChildNodes().item(0).getChildNodes().item(1).getNodeName().toString() + ": " + alias);
+                                if ("TKT EXTERNO".equalsIgnoreCase(alias) && 
+                                       (type.getTextContent().equalsIgnoreCase("IM") ||
+                                        type.getTextContent().equalsIgnoreCase("SD") ||
+                                        type.getTextContent().equalsIgnoreCase("RQ") )){
+                                    System.out.println(" simplit: " + type.getTextContent());
+                                    System.out.println(node23.getChildNodes().item(0).getChildNodes().item(1).getNodeName().toString() + ": " + alias);
+                                    
                                     Node number = nl1.item(index+1);//nro de tkt simplit  
                                     System.out.println(" simplit: " + number.getTextContent());
 
