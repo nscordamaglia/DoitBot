@@ -23,7 +23,7 @@ class Save {
             public void file(String data, String path){
                 
             
-            //String headerCSV = "TKT iTracker;TKT Simplit;Grupo Simplit;Estado del TKT Simplit;Fecha de Apertura;Fecha de Cierre;Texto de apertura;Texto de cierre;Fecha de consulta";
+            //String headerCSV = "TKT webApp;TKT Simplit;Grupo Simplit;Estado del TKT Simplit;Fecha de Apertura;Fecha de Cierre;Texto de apertura;Texto de cierre;Fecha de consulta";
             Date now = new Date();
             String dataExtended = data +" - "+ DateFormat.getInstance().format(now);
                 
@@ -72,7 +72,7 @@ class Save {
              */
             public void Exist(String path) throws IOException {
                 
-                 String headerCSV = "TKT iTracker;TKT Simplit;Grupo Simplit;Estado del TKT Simplit;Fecha de Apertura;Fecha de Cierre;Texto de apertura;Texto de cierre;Fecha de consulta";
+                 String headerCSV = "TKT webApp;TKT Simplit;Grupo Simplit;Estado del TKT Simplit;Fecha de Apertura;Fecha de Cierre;Texto de apertura;Texto de cierre;Fecha de consulta";
                  String headerIM ="Incidente;Grupo;Estado";
                  File file = null;
                  File oldFile = null;

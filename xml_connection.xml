@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-15"?>
-<itracker>
+<webApp>
   <header>
     <front>ROBOTSERVER</front>
     <usr>SIMPLITBOT</usr>
@@ -13,7 +13,7 @@
     <params>
     </params>
   </request>
-</itracker>
+</webApp>
 
 
 

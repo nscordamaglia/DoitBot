@@ -115,11 +115,11 @@ class XMLparser {
     
     }
     /**
-     * Metodo para generar el array de itracker que sirve como nuvleo para la inicializacion del tkt obj
+     * Metodo para generar el array de webApp que sirve como nuvleo para la inicializacion del tkt obj
      * @return 
      */
 
-    ArrayList<TKTobj> itrackerList() {
+    ArrayList<TKTobj> webAppList() {
         
         ArrayList<String> tktattr = new ArrayList<>();
         ArrayList<TKTobj> tktarray = new ArrayList<>();
@@ -163,11 +163,11 @@ class XMLparser {
 
                                     Node node24 = node23.getParentNode();
                                     Node node25 = node24.getParentNode();
-                                    String tktParent = node25.getChildNodes().item(0).getTextContent();//id tkt itracker  
+                                    String tktParent = node25.getChildNodes().item(0).getTextContent();//id tkt webApp  
                                     System.out.println(" tkt: " + tktParent );
-                                    String FA = node25.getChildNodes().item(1).getTextContent();//fecha de creacion tkt itracker       
+                                    String FA = node25.getChildNodes().item(1).getTextContent();//fecha de creacion tkt webApp       
                                     System.out.println(" FA: " + FA );
-                                    String master = node25.getChildNodes().item(3).getTextContent();//id master itracker     
+                                    String master = node25.getChildNodes().item(3).getTextContent();//id master webApp     
                                     System.out.println(" master: " + master );
                                     //System.out.println(" simplit: " + type.getTextContent() + number.getTextContent() + " tkt: " + tktParent + " fecha de creacion: " + FA + " master: " + master);
                                     //agrego los datos al array                                
@@ -227,7 +227,7 @@ class XMLparser {
             Node r = SearchTag(response, data);
             setResponse(r.getFirstChild().getNodeName().toString() + ": " + r.getFirstChild().getTextContent() );
         }catch (NullPointerException n){
-                                        //System.out.println("no hay tkt itracker");
+                                        //System.out.println("no hay tkt webApp");
                                         setResponse("error: falló la consulta");}
     }
     

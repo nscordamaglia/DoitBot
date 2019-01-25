@@ -4,7 +4,7 @@ package doitbot;
 import java.util.ArrayList;
 
 /**
- * Clase abstracta de donode van a extenderse todos los servicios, en este caso itracker y service center.
+ * Clase abstracta de donode van a extenderse todos los servicios, en este caso webApp y service center.
  * @author Nicolas Scordamaglia
  */
 abstract class Service {

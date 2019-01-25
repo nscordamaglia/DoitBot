@@ -55,7 +55,7 @@ class GetList extends Action{
         
         System.out.println("getlist...");
         Save logServer = new Save();
-            logServer.file("Connection Itracker...", "logs/logserver.log");
+            logServer.file("Connection webApp...", "logs/logserver.log");
         service.run(datanodes);
         
         
@@ -77,7 +77,7 @@ class GetList extends Action{
                 try{
                 parser.setResponse(service.getResponse());
                 parser.setData("tkt/ths/th/itform/element/value");
-                service.setArrayTKT(parser.itrackerList());
+                service.setArrayTKT(parser.webAppList());
                 }catch (NullPointerException n){setStatus(parser.getResponse());}
         }
         
@@ -88,7 +88,7 @@ class GetList extends Action{
          * obtengo un resultado positivo o negativo de la accion ejecutada
          * si hay <error> setStatus("error") - si hay <data> setStatus("ok")
          * login da como resultad el hash
-         * getlist tiene que crear la lista de tkt itracker
+         * getlist tiene que crear la lista de tkt webApp
          * 
         */
     

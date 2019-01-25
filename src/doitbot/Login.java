@@ -129,7 +129,7 @@ class Login extends Action{
          * obtengo un resultado positivo o negativo de la accion ejecutada
          * si hay <error> setStatus("error") - si hay <data> setStatus("ok")
          * login da como resultad el hash
-         * getlist tiene que crear la lista de tkt itracker
+         * getlist tiene que crear la lista de tkt webApp
          * 
         */
     

@@ -1,6 +1,5 @@
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * Maquetado para el mail
  */
 package doitbot;
 
@@ -16,47 +15,46 @@ import javax.mail.internet.MimeMultipart;
 
 /**
  *
- * @author u189299
+ * @author Nicolas Scordamaglia
  */
 public class SendMail {
-    
-    // Recipient's email ID needs to be mentioned.
+
+    // Destinatario
       String to = ConfigManager.getAppSetting("mailto");
 
-      // Sender's email ID needs to be mentioned
+      // Origen
       String from = ConfigManager.getAppSetting("mailfrom");
 
-      // Assuming you are sending email from localhost
+      // SMTP
       String host = ConfigManager.getAppSetting("smtp");
 
     public void Ready (){
-    
-    
-            // Get system properties
+
+
+            // Propiedades del sistema
       Properties properties = System.getProperties();
 
-      // Setup mail server
+      // Configuranción del servidor
       properties.setProperty("mail.smtp.host", host);
 
-      // Get the default Session object.
+      // Inicio de sesion con los valores por defecto
       Session session = Session.getDefaultInstance(properties);
 
-      try{
-         // Create a default MimeMessage object.
+      try{Creación del mensajeCreate a default MimeMessage object.
          MimeMessage message = new MimeMessage(session);
 
-         // Set From: header field of the header.
+         // Configura origen
          message.setFrom(new InternetAddress(from));
 
-         // Set To: header field of the header.
+         // Configura destino
          message.addRecipient(Message.RecipientType.TO, new InternetAddress(to));
 
-         // Set Subject: header field
+         // configura asunto
          message.setSubject("Reporte IM");
 
-         // Send the actual HTML message, as big as you like
-         message.setContent("<h1>Reporte IM</h1>", "text/html" );
-         
+         // Envio del mail
+         message.setContent("<h1>Reporting</h1>", "text/html" );
+
          MimeBodyPart messageBodyPart = new MimeBodyPart();
          String filename = "logs/ReporteIM.csv";
          DataSource source = new FileDataSource(filename);
@@ -71,9 +69,9 @@ public class SendMail {
          System.out.println("Sent message successfully....");
       }catch (MessagingException mex) {
          mex.printStackTrace();
-         
-      }   
-    
+
+      }
+
     }
 
 }

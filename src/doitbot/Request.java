@@ -72,7 +72,7 @@ class Request {
          * Establece la conexion tomando los parametros y la url devolviendo la respuesta en formato XML 
          * @param url
          * @param urlParameters
-         * @return XML de iTracker
+         * @return XML de webApp
          * @throws MalformedURLException
          * @throws IOException 
          */

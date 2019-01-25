@@ -9,7 +9,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- * Clase creadora de objetos tkt, se inicializan con los datos de itracker y luego se actualizan con los datos de doit
+ * Clase creadora de objetos tkt, se inicializan con los datos de webApp y luego se actualizan con los datos de doit
  * @author Nicolas Scordamaglia
  */
 class TKTobj {

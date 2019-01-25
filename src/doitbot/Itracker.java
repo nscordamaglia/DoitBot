@@ -11,7 +11,7 @@ import java.util.logging.Logger;
  * Clase que se extiende de Service y ejecuta los metodos segun la clase Action que lo instancia.
  * @author Nicolas Scordamaglia
  */
-class Itracker extends Service{
+class webApp extends Service{
     
     private final String url;
     private String response;
@@ -37,8 +37,8 @@ class Itracker extends Service{
 
     
 
-    public Itracker() {
-        this.url = ConfigManager.getAppSetting("urlItracker");
+    public webApp() {
+        this.url = ConfigManager.getAppSetting("urlwebApp");
         this.response = null;
         this.hash = new Hash();
     }
@@ -66,9 +66,9 @@ class Itracker extends Service{
             //System.out.println("response: " + rq.getGetResponse());
             setResponse(rq.getGetResponse());
         } catch (MalformedURLException ex) {
-            Logger.getLogger(Itracker.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(webApp.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
-            Logger.getLogger(Itracker.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(webApp.class.getName()).log(Level.SEVERE, null, ex);
         }
     
     }
